@@ -1,30 +1,31 @@
-<script lang="ts">
+<script>
 	import LinkedIn from '$lib/icons/linked-in.svelte';
 </script>
 
 <div
-	class="relative flex h-[60vh] w-full flex-col justify-end overflow-hidden bg-cover bg-right bg-no-repeat"
+	class="relative flex h-[60vh] w-full flex-col justify-start overflow-hidden bg-cover bg-right bg-no-repeat px-4"
 	style="background-image: url('/images/headshot-2.jpg');">
-	<div
-		class="absolute left-0 right-0 top-2 z-50 mx-auto max-w-7xl bg-[#cccccc] px-4 text-left text-2xl  md:px-6 [@media_((min-height:600px)_and_(min-width:640px))]:text-2xl [@media_((min-height:800px)_and_(min-width:768px))]:text-3xl">
-		<!--intro-->
-		<ul class="flex items-end justify-between text-slate-700">
-			<li class="-ml-2 block p-2 text-3xl font-bold tracking-tight">
-				Hello World!
-			</li>
-			<li class="flex-1"></li>
-			<li class="self-start">
-				<a
-					href="https://www.linkedin.com/in/richard-tammar/"
-					class="-mr-1 block h-12 w-12 p-1">
-					<LinkedIn />
-				</a>
-			</li>
-		</ul>
-		</div>
-		<div class="text-left text-2xl">
+
+	<ul class="flex items-end justify-between text-slate-700">
+		<li class="block text-3xl font-bold tracking-tight">
+			Hello World!
+		</li>
+		<li class="flex-1"></li>
+		<li class="self-start">
+			<a
+				href="https://www.linkedin.com/in/richard-tammar/"
+				class="-mr-1 block h-12 w-12 p-1">
+				<LinkedIn />
+			</a>
+		</li>
+	</ul>
+
+	<div class="text-left text-2xl">
+		<p class="block text-3xl font-bold tracking-tight">
+			I'm Richard Tammar
+		</p>
 		<p
-			class="mt-0 hidden max-w-[30rem] pt-0 text-sm leading-snug tracking-tight text-slate-700 md:text-base [@media(min-height:600px)]:block">
+			class="mt-0 max-w-[30rem] pt-0 text-sm leading-snug tracking-tight text-slate-700 md:text-base [@media(min-height:600px)]:block">
 			Affable, senior technologist with an aptitude for connecting the C-suite
 			to the engine room. <!--Curious and analytical, I thrive anywhere I have the opportunity to
 			catalyze positive change.-->
