@@ -8,7 +8,6 @@
 	import { activateOnScroll, focus, preventDefault, self, trapFocus } from '$lib/util';
 	import Work from '$lib/sections/work.svelte';
 	import Education from '$lib/sections/education.svelte';
-	import ContactModal from '$lib/contact-modal.svelte';
 
 	onMount(() => {
 		activateOnScroll('.cursor');
@@ -16,8 +15,8 @@
 </script>
 
 <Hero />
-<div class="relative z-50 h-4 w-full bg-slate-700"></div>
-<About />
+<!--<div class="relative z-50 h-4 w-full bg-slate-700"></div>
+<About />-->
 <div class="relative z-50 h-4 w-full bg-slate-800"></div>
 <Skills />
 <div class="relative z-50 h-4 w-full bg-slate-700"></div>

@@ -246,7 +246,7 @@
 			<h2
 				class="relative z-10 mx-auto font-['Roboto_Mono'] text-xl leading-none tracking-wide text-[#fce4b8]"
 			>
-				<span class="text-white/50">~/</span>WORK
+				<span class="text-white/50">~/</span>EXPERIENCE
 			</h2>
 		</a>
 		<p class="cursor -ml-2 mb-20 block font-['Roboto_Mono'] text-lg text-white/50" id="cursor-4">

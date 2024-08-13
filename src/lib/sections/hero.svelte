@@ -1,48 +1,56 @@
-<!--<script lang="ts">
-	import { getContext } from 'svelte';
-	import type { Writable } from 'svelte/store';
-
-	let modal: { visible: Writable<boolean> } = getContext('modal');
-</script>-->
+<script lang="ts">
+	import LinkedIn from '$lib/icons/linked-in.svelte';
+</script>
 
 <div
-	class="relative flex h-[80vh] w-full flex-col justify-end overflow-hidden bg-[#fcedd1]
-">
-	<div class="darken-edges absolute z-50 h-[100vh] w-full"></div>
+	class="relative flex h-[60vh] w-full flex-col justify-end overflow-hidden bg-cover bg-right bg-no-repeat"
+	style="background-image: url('/images/headshot-2.jpg');">
 	<div
-		class="parallax absolute bottom-0 left-0 right-0 z-0 h-full overflow-hidden bg-[#fcedd1] bg-[url('/images/x-stars.webp')] bg-no-repeat pl-24 opacity-15 bg-blend-multiply [--parallax-speed:8]">
-	</div>
-	<div
-		class="parallax absolute bottom-0 left-0 right-0 z-10 h-full overflow-hidden rounded-tl-full bg-[#fae4c9] bg-[url('/images/x-sunset.webp')] bg-cover bg-top pl-24 opacity-15 bg-blend-multiply [--parallax-speed:6]">
-	</div>
-	<div
-		class="parallax absolute bottom-0 left-12 right-0 z-20 h-[60vh] rounded-tl-full bg-[#f8d8c1] [--parallax-speed:4]">
-	</div>
-	<div
-		class="parallax bg-coverbg-center absolute bottom-0 left-24 right-0 z-30 h-[45vh] rounded-tl-full bg-[#f7c6b1] bg-[url('/images/x-sunset.webp')] bg-cover opacity-15 bg-blend-multiply [--parallax-speed:2|]">
-	</div>
-	<div
-		class="parallax absolute left-0 right-0 top-[15vh] z-50 mx-auto w-fit px-4 text-left text-2xl [--parallax-speed:2] md:bottom-1/2 md:px-6 [@media_((min-height:600px)_and_(min-width:640px))]:text-4xl [@media_((min-height:800px)_and_(min-width:768px))]:text-5xl">
+		class="absolute left-0 right-0 top-2 z-50 mx-auto max-w-7xl bg-[#cccccc] px-4 text-left text-2xl  md:px-6 [@media_((min-height:600px)_and_(min-width:640px))]:text-2xl [@media_((min-height:800px)_and_(min-width:768px))]:text-3xl">
+		<!--intro-->
+		<ul class="flex items-end justify-between text-slate-700">
+			<li class="-ml-2 block p-2 text-3xl font-bold tracking-tight">
+				Hello World!
+			</li>
+			<li class="flex-1"></li>
+			<li class="self-start">
+				<a
+					href="https://www.linkedin.com/in/richard-tammar/"
+					class="-mr-1 block h-12 w-12 p-1">
+					<LinkedIn />
+				</a>
+			</li>
+		</ul>
+		</div>
+		<div class="text-left text-2xl">
 		<p
-			class="font-['Roboto_Mono'] font-medium leading-none tracking-tight text-[#df625d]/50 drop-shadow">
+			class="mt-0 hidden max-w-[30rem] pt-0 text-sm leading-snug tracking-tight text-slate-700 md:text-base [@media(min-height:600px)]:block">
+			Affable, senior technologist with an aptitude for connecting the C-suite
+			to the engine room. <!--Curious and analytical, I thrive anywhere I have the opportunity to
+			catalyze positive change.-->
+		</p>
+		<!--mock code block-->
+		<p
+			class="mt-12 font-['Roboto_Mono'] font-medium leading-none tracking-tight text-[#df625d]/50 drop-shadow">
 			<span class="font-normal text-slate-500/15">1</span>
 			&nbsp;&nbsp;&lbrace;
 		</p>
-		<p
+		<!--<p
 			class="font-['Roboto_Mono'] font-medium leading-none tracking-tight text-slate-500 drop-shadow">
 			<span class="font-normal text-slate-500/15">2</span>
 			&nbsp;&nbsp;&nbsp;&nbsp;name: "Richard Tammar"<span class="text-indigo-500/50">,</span>
-		</p>
+		</p>-->
 		<p
 			class="font-['Roboto_Mono'] font-medium leading-none tracking-tight text-slate-600 drop-shadow">
-			<span class="font-normal text-slate-500/15">3</span>
-			&nbsp;&nbsp;&nbsp;&nbsp;message: "Hello World!"
-			
+			<span class="font-normal text-slate-500/15">2</span>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<span class="text-slate-500">message:</span>
+			"Hello World!"
 		</p>
 
 		<p
 			class="font-['Roboto_Mono'] font-medium leading-none tracking-tight text-[#df625d]/50 drop-shadow">
-			<span class="font-normal text-slate-500/15">4</span>
+			<span class="font-normal text-slate-500/15">3</span>
 			&nbsp;&nbsp;&rbrace;
 			<!--<span
 				class="cursor active font-['Roboto_Mono'] text-slate-500/30"
@@ -50,35 +58,10 @@
 				&#x2590;
 			</span>--><!--removed flashing cursor during development-->
 		</p>
-		<p
-			class="mt-12 hidden max-w-[45rem] border-t border-slate-400/25 pt-8 text-sm leading-snug tracking-tight text-slate-600 md:text-base [@media(min-height:600px)]:block">
-			Personable, veteran technologist with a knack for connecting the C-suite to the engine room and driving digital transformation across sectors. Warm, curious and analytical, I thrive anywhere I have the opportunity to catalyze positive change.
-		</p>
-
-		<!--<button
-			class="mt-16 flex items-center gap-1 rounded-full bg-slate-700 py-2 pl-6 pr-5 text-sm font-bold tracking-widest text-slate-300 shadow-lg shadow-slate-700/10 transition-all duration-500 ease-in-out hover:brightness-125"
-			onclick={() => modal.visible.set(true)}>
-			CONTACT ME
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				width="20"
-				height="20"
-				viewBox="0 0 24 24"
-				fill="none"
-				stroke="currentColor"
-				stroke-width="3"
-				stroke-linecap="round"
-				stroke-linejoin="round"
-				class="lucide lucide-chevron-right">
-				<path d="m9 18 6-6-6-6" />
-			</svg>
-		</button>-->
 	</div>
 	<div
-		class="relative z-40 mt-96 h-[40vh] w-full min-w-[100vh] bg-[url('/images/x-horizon.webp')] bg-cover bg-top md:mt-44 xl:h-[50vh]">
-	</div>
-	<div
-		class="absolute bottom-12 left-0 right-0 z-50 mx-auto h-16 w-16 rounded-full bg-slate-900/20 p-4 text-slate-200 md:h-20 md:w-20"><!--removed animate-bounce during development-->
+		class="absolute bottom-12 left-0 right-0 z-50 mx-auto h-16 w-16 rounded-full bg-slate-900/20 p-4 text-slate-200 md:h-20 md:w-20">
+		<!--removed animate-bounce during development-->
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"

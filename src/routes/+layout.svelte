@@ -1,74 +1,12 @@
 <script lang="ts">
 	import { Svrollbar } from 'svrollbar';
 	import '../app.css';
-	import { onDestroy, setContext } from 'svelte';
-	import { writable } from 'svelte/store';
-	import ContactModal from '$lib/contact-modal.svelte';
-	import { fade } from 'svelte/transition';
-	import { focus, preventDefault, self, trapFocus } from '$lib/util';
-	import { browser } from '$app/environment';
 	import GitHub from '$lib/icons/git-hub.svelte';
 	import LinkedIn from '$lib/icons/linked-in.svelte';
-
-	var modal = setContext('modal', {
-		visible: writable(false)
-	});
-
-	let { visible } = modal;
-
-	function handleClickClose(event: PointerEvent) {
-		if ((event as PointerEvent)?.pointerId === -1) return;
-
-		toggleModal();
-	}
-
-	function handleEscapeClose(event: KeyboardEvent) {
-		console.log(event);
-		if (event.key !== 'Escape') return;
-
-		toggleModal();
-	}
-
-	function toggleModal() {
-		visible.set(!$visible);
-	}
-
-	let unsubscribe = visible.subscribe((value) => {
-		if (!browser) return;
-
-		if (value) {
-			document.body.classList.add('overflow-hidden');
-			return;
-		}
-
-		document.body.classList.remove('overflow-hidden');
-	});
-
-	onDestroy(unsubscribe);
 </script>
 
 <Svrollbar />
-<nav class="absolute left-0 right-0 z-50 mx-auto max-w-7xl p-4 md:p-6">
-	<ul class="flex items-end justify-between text-slate-700">
-		<li>
-			<a href="/" class="-ml-2 block p-2 text-sm font-bold tracking-tight">RICHARD TAMMAR</a>
-		</li>
-		<li class="flex-1"></li>
-		<!--<li>
-			<a
-				href="https://github.com/VenusianCat"
-				class="-mr-1 block h-10 w-10 p-1"
-			>
-				<GitHub />
-			</a>
-		</li>-->
-		<li>
-			<a href="https://www.linkedin.com/in/richard-tammar/" class="-mr-1 block h-10 w-10 p-1">
-				<LinkedIn />
-			</a>
-		</li>
-	</ul>
-</nav>
+
 <main>
 	<slot />
 </main>
@@ -85,10 +23,9 @@
 			<li class="hidden flex-1 sm:block"></li>
 			<li>
 				<ol class="flex flex-col gap-2 font-medium leading-loose tracking-tight">
-					<li><button onclick={toggleModal}>CONTACT ME</button></li>
 					<li><a href="#about">ABOUT ME</a></li>
 					<li><a href="#skills">SKILLS</a></li>
-					<li><a href="#work">WORK</a></li>
+					<li><a href="#work">EXPERIENCE</a></li>
 					<li><a href="#education">EDUCATION</a></li>
 				</ol>
 			</li>
@@ -108,18 +45,6 @@
 	</div>
 </footer>
 
-{#if $visible}
-	<button
-		transition:fade
-		class="fixed top-0 z-[100] flex h-full w-full cursor-default items-center justify-center bg-white/70 sm:bg-white/50 sm:backdrop-blur"
-		onclick={preventDefault(self(handleClickClose))}
-		onkeydown={handleEscapeClose}
-		use:focus
-		use:trapFocus
-	>
-		<ContactModal close={toggleModal} />
-	</button>
-{/if}
 
 <style lang="postcss">
 	:global(html::-webkit-scrollbar, body::-webkit-scrollbar) {
