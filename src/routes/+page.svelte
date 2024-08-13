@@ -26,7 +26,7 @@
 
 <style lang="postcss">
 	:global(.cursor) {
-		opacity: 0;
+		opacity: 100;
 	}
 
 	:global(.cursor.active) {

@@ -4,7 +4,7 @@
 		close = null,
 		class: className = '',
 		style = 'dark',
-		blurred = false
+		blurred = true
 	}: {
 		close?: any;
 		class?: string;
