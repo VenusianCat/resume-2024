@@ -62,16 +62,14 @@
 		<h2
 			class="z-10 font-['Roboto_Mono'] text-xl leading-none tracking-tight text-slate-700 mb-12">
 			<span class="mr-1 text-slate-700/50">~/</span>
-			I'M GOOD AT...<span class="cursor text-slate-700/50" id="cursor-3">&#x2590;</span>
+			I'M GOOD AT...
 		</h2>
-
-		
 
 		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
 			{#each skillSets as o, i}
-				<Window class="h-full">
+				<Window>
 					{#each o.skillSetHeading as h, j}
-						<EditorLine class="text-slate-400/80"># {h}</EditorLine>
+						<EditorLine class="text-sky-700"># {h}</EditorLine>
 					{/each}
 					{#each o.skills as s, j}
 						<EditorLine />
@@ -82,10 +80,10 @@
 							{/if}
 						</EditorLine>
 						<EditorLine>
-							<div class="absolute top-1 w-full pl-14">
+							<div class="absolute top-1 w-full pl-10">
 								<div class="rounded-full bg-slate-900/75">
 									<div
-										class="h-1 rounded-full bg-[#fce4b8] pl-4"
+										class="h-1 rounded-full bg-zinc-50 pl-10"
 										style="width: {s.level}%">
 									</div>
 								</div>

@@ -191,41 +191,6 @@
 				'SVN'
 			],
 			icons: [DotNet, Javascript, SqlServer]
-		},
-		{
-			from: 'Jul 2008',
-			to: 'Nov 2008',
-			title: 'Developer',
-			workPlace: '@Arquitectura en Sistemas Computacionales Integrales',
-			body: [
-				'At ASCI I worked for a short time, but it was fun nevertheless. My first project involved writing firmware in C for wireless network access points.',
-				'Here is where I learned about version control, unit testing, code quality, and how it is like working in a real development team in general.',
-				'Later I moved on to a web development project, where I built a web application with ASP.NET Web Forms and JavaScript which integrated with Google Maps and GPS tracking devices, at the time this was pretty new stuff.'
-			],
-			keywords: [
-				'C#',
-				'C',
-				'ASP.NET',
-				'JavaScript',
-				'Google Maps',
-				'GPS Tracking',
-				'Firmware Development',
-				'SVN'
-			],
-			icons: [DotNet, C, Javascript]
-		},
-		{
-			from: 'Sep 2005',
-			to: 'Jul 2008',
-			title: 'Developer',
-			workPlace: '@AgroClima Informatica Avanzada',
-			body: [
-				'This was my first job as a software engineer and I was pretty much the entire IT department. This was a small insurance company that specialized in agribusiness.',
-				'I got to learn about networks, Linux, web servers, databases, basic web development concepts and a lot of other stuff in between. This is when I first started writing ASP.NET web apps in C#, this was when version 2.0 had just been released.',
-				'I even did some Flash based web UIs that displayed weather forecast maps.'
-			],
-			keywords: ['C#', 'ASP.NET', 'JavaScript', 'Linux', 'Flash', 'Insurance', 'Agribusiness'],
-			icons: [DotNet, Javascript, SqlServer]
 		}
 	];
 
