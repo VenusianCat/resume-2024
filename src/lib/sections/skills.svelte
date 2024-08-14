@@ -56,13 +56,12 @@
 <div class="bg-slate-200">
 	<div class="relative z-40 mx-auto max-w-7xl px-4 pb-6 pt-12">
 		<div
-			class="absolute top-0 z-0 mx-auto hidden h-full w-full bg-[url('/images/coffee.webp')] bg-right-top bg-no-repeat py-24 bg-blend-normal md:block">
+			class="absolute top-0 z-0 mx-auto hidden h-full w-full bg-[url('/images/x-coffee.webp')] bg-right-top bg-no-repeat py-24 bg-blend-normal md:block">
 		</div>
 
 		<h2
 			class="z-10 font-['Roboto_Mono'] text-xl leading-none tracking-tight text-slate-700 mb-12">
-			<span class="mr-1 text-slate-700/50">~/</span>
-			I'M GOOD AT...
+			<span class="text-slate-700/50">~/</span>ProfessionalProfile
 		</h2>
 
 		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">

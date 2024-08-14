@@ -19,7 +19,7 @@
 	}
 
 	.dark.blurred {
-		@apply bg-gradient-to-br from-slate-500/70 to-slate-400/70 text-zinc-700 font-bold shadow-lg;
+		@apply bg-gradient-to-br from-slate-300/70 to-slate-200/70 text-zinc-700 font-bold shadow-lg;
 		backdrop-filter: blur(5px);
 	}
 </style>
