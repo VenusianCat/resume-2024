@@ -3,11 +3,9 @@
 </script>
 
 <div
-	class="relative flex h-[50vh] w-full flex-col justify-start overflow-hidden bg-cover bg-right bg-no-repeat px-4"
-	style="background-image: url('/images/headshot-2.jpg');">
+	class="relative flex w-full flex-col justify-start overflow-hidden bg-gradient-to-br from-slate-400 to-gray-400 bg-cover bg-right bg-no-repeat px-4 md:h-[40vh] md:bg-[url('/images/headshot-2.jpg')]">
 	<ul class="flex items-end justify-between text-slate-700">
-		<li
-			class="glass mt-4 block p-5 text-sm tracking-tight sm:text-2xl md:text-3xl">
+		<li class="glass my-4 block p-5 text-sm tracking-tight md:text-3xl">
 			<!--mock code block-->
 			<div
 				class="my-2 font-['Roboto_Mono'] font-medium leading-none tracking-tight drop-shadow">
@@ -19,32 +17,26 @@
 				<p>
 					<span class="font-normal text-zinc-100/30">2</span>
 					&nbsp;&nbsp;
-					<span class="text-slate-600">author:</span>
-					<span class="text-slate-300">'Richard Tammar'</span><span class="text-slate-600">,</span>
+					<span class="text-slate-600">author:&nbsp;'</span><span class="text-slate-300">Richard Tammar</span><span class="text-slate-600">',</span>
 				</p>
+
+				<!--<p>
+					<span class="font-normal text-zinc-100/30">3</span>
+					&nbsp;&nbsp;
+					<span class="text-slate-600">message: '</span><span class="text-slate-300">Hello World!</span><span class="text-slate-600">'</span>
+				</p>-->
 
 				<p>
 					<span class="font-normal text-zinc-100/30">3</span>
-					&nbsp;&nbsp;
-					<span class="text-slate-600">message:</span>
-					<span class="text-slate-300">'Hello World!'</span>
-				</p>
-
-				<p>
-					<span class="font-normal text-zinc-100/30">4</span>
 					<span class="text-slate-700">&nbsp;&rbrace;</span>
 				</p>
 			</div>
 			<!-- end mock code block -->
-			<!--<p class="font-bold">
-				I'm Richard Tammar
+			<p class="max-w-[30rem] pt-10 text-lg text-slate-700">
+				Veteran technologist with a knack for connecting the C-suite to the
+				engine room. Warm, curious and analytical, I work to catalyze positive
+				change.
 			</p>
-			<p
-				class="mt-0 max-w-[30rem] pt-0 text-sm leading-snug tracking-tight text-slate-700 md:text-base [@media(min-height:600px)]:block">
-				Affable, senior technologist with an aptitude for connecting the C-suite
-				to the engine room. Curious and analytical, I thrive anywhere I have the opportunity to
-			catalyze positive change.
-			</p>-->
 		</li>
 		<li class="flex-1"></li>
 		<li class="self-start">
@@ -74,12 +66,15 @@
 </div>
 
 <style lang="postcss">
-	.glass {
-		background: rgba(255, 255, 255, 0);
-		border-radius: 16px;
-		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-		backdrop-filter: blur(3px);
-		-webkit-backdrop-filter: blur(3px);
-		border: 1px solid rgba(255, 255, 255, 0.1);
+	.glass {}
+	@media screen and (min-width: 480px) {
+		.glass {
+			background: rgba(255, 255, 255, 0);
+			border-radius: 16px;
+			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+			backdrop-filter: blur(3px);
+			-webkit-backdrop-filter: blur(3px);
+			border: 1px solid rgba(255, 255, 255, 0.1);
+		}
 	}
 </style>

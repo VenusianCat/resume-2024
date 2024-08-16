@@ -23,12 +23,13 @@
 
 	const work = [
 		{
-			from: 'Jan, 2012',
+			from: '2012',
 			to: 'Present',
 			title: 'Senior Director of Digital Strategy',
 			workPlace: 'Travel Portland',
+			locationDescription: 'Travel Portland is considered to be one of the most innovative and effective Destination Marketing Organizations in the United States and is a significant contributor to the city\'s $6bn tourism sector.',
 			body: [
-				"I lead the organization's digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company's Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers."
+				'I lead the organization\'s digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company\'s Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers.'
 			],
 			keywords: [
 				'ASP.NET Core',
@@ -68,6 +69,7 @@
 			to: '2012',
 			title: 'Director of Web Development',
 			workPlace: 'One Economy Corporation',
+			locationDescription: 'One Economy Corporation was a Washington, D.C. based, global nonprofit organization that connected underserved communities around the world to the internet and its resources.',
 			body: [
 				'I directed the Web Development and Product Management verticals of the Media Division, with up to 17 reports, and provided technical leadership across such initiatives as The Public Internet Channel , The Beehive and Applications for Good with a combined traffic in excess of 1M unique visitors per month.'
 			],
@@ -107,15 +109,13 @@
 			]
 		},
 		{
-			from: 'Nov 2012',
-			to: 'Feb 2018',
-			title: 'Software Engineer',
-			workPlace: '@Softtek',
+			from: '2004',
+			to: '2008',
+			title: 'Web Manager',
+			workPlace: 'Lattice Semiconductor',
+			locationDescription: 'Lattice Semiconductor Corporation (NASDAQ: LSCC) designs high-performance programmable logic devices with annual revenues of around $600M.',
 			body: [
-				'During my time at Softtek I was lucky to work with two great clients in the wealth management and retail sectors, where I had the chance to learn about compliance, risk management, inventory management, among other business domains.',
-				'I was in charge of the design and implementation of backend systems, with business rules that were complex and consistently changing due to evolving regulations and requirements, yet with emphasis on performance.',
-				'Most of the development work was done in C# and I experienced the transitions of different .NET products, e.g. from WCF, to MVC, to Web API, to ASP.NET Core.',
-				'In the later years I was introduced to "modern" front-end frameworks, i.e. Angular, so I gained some experience with JavaScript and Typescript. At the time state management on the front-end was rapidly changing and very opinionated, for me this meant working with Redux to manage the state of UIs that required higher complexity.'
+				'I directed the corporation\'s global web presence, intranet, extranet and email marketing programs. I managed the web team and reengineered the corporate web site, significantly enhancing customer-satisfaction, usability, lead generation and organic search rank; significantly reducing support and maintenance overheads and marketing lead times.'
 			],
 			keywords: [
 				'C#',
@@ -145,13 +145,13 @@
 			]
 		},
 		{
-			from: 'Dec 2010',
-			to: 'Jul 2014',
-			title: 'Founder and Developer',
-			workPlace: '@Tique Tecnologias de Informacion',
+			from: '1999',
+			to: '2004',
+			title: 'Web Manager',
+			workPlace: 'University of Sussex',
+			locationDescription: 'The University of Sussex is a leading British public research university, with over 3,000 staff and 18,000 students.',
 			body: [
-				'This was a small consultancy company that I started with group of friends from college. We were able to sell and implement several development projects for local government agencies and businesses.',
-				'We mainly provided web presence and mobile applications for our customers, using different technologies like ASP.NET, React and Angular.'
+				'I was responsible for the University\'s web presence, ran technical lead on all major web development initiatives and line managed the University web team. I built a campus-wide content management system, enabling non-technical staff in 100+ subordinate units to maintain an independent departmental website without compromising our brand. The CMS integrated with HR and curriculum systems to ensure currency of personnel data, program specifications et al. Through so doing I increased usability, reduced technical overheads and cut support costs.'
 			],
 			keywords: [
 				'C#',
@@ -166,53 +166,6 @@
 			],
 			icons: [DotNet, Azure, Typescript, Javascript, Angular, React, SqlServer]
 		},
-		{
-			from: 'Oct 2009',
-			to: 'Dec 2010',
-			title: 'Software Engineer',
-			workPlace: '@Nasoft USA',
-			body: [
-				'At Nasoft I implemented and maintained the web platform for our customers in the mortgage sector. Back then ASP.NET MVC was still a thing, and it the main web application framework used for the platform, but we also integrated and exposed SOAP web services with WCF.',
-				"This was also during jQuery's heyday, which at the time didn't seem so bad, so we were using it in our front-end."
-			],
-			keywords: [
-				'C#',
-				'ASP.NET',
-				'SQL Server',
-				'MVC',
-				'WCF',
-				'ADO.NET',
-				'Mortgage',
-				'Real Estate',
-				'Risk Management',
-				'TFS',
-				'jQuery'
-			],
-			icons: [DotNet, Javascript, SqlServer, Jquery]
-		},
-		{
-			from: 'Nov 2008',
-			to: 'Oct 2009',
-			title: 'Developer',
-			workPlace: '@Banamex CitiGroup',
-			body: [
-				"At Banamex I worked on an internal web application for our mortgage branch's analysts to manage risk and loan approvals. Here I had the opportunity to get up close to the database and is where I gained my initial experience with SQL Server.",
-				'The application was built with ASP.NET Web Forms and vanilla JS.'
-			],
-			keywords: [
-				'C#',
-				'ASP.NET',
-				'SQL Server',
-				'ADO.NET',
-				'Banking',
-				'Finance',
-				'Mortgage',
-				'Risk Management',
-				'Compliance',
-				'SVN'
-			],
-			icons: [DotNet, Javascript, SqlServer]
-		}
 	];
 
 	onMount(() => {
@@ -229,20 +182,11 @@
 		</div>
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto font-['Roboto_Mono'] text-xl leading-none tracking-wide text-[#fce4b8]">
-				<span class="text-white/50">~/</span>
+				class="relative z-10 mx-auto mb-10 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-[#fce4b8]">
+				<span class="text-white/50">//</span>
 				EXPERIENCE
 			</h2>
 		</a>
-		<p
-			class="cursor -ml-2 mb-20 block font-['Roboto_Mono'] text-lg text-white/50"
-			id="cursor-4">
-			&#x2590;
-		</p>
-		<p
-			class="relative z-20 mb-24 text-pretty pr-24 text-2xl font-medium leading-tight tracking-tight text-slate-300 drop-shadow-lg md:text-3xl lg:w-1/2">
-			The places I have worked at and what I got to build.
-		</p>
 		<div
 			class="relative mx-auto space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
 			{#each work as w, i}
@@ -251,9 +195,9 @@
 					to={w.to}
 					heading={w.title}
 					subheading={w.workPlace}
+					preamble={w.locationDescription}
 					body={w.body}
 					keywords={w.keywords}
-					icons={w.icons}
 					active={i === 0}></Milestone>
 			{/each}
 		</div>

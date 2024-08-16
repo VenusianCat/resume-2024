@@ -64,11 +64,10 @@
 			{#each skillSets as o, i}
 				<Window icon={o.icon}>
 					{#each o.skillSetHeading as h, j}
-						<EditorLine class="text-sky-700 font-bold">// {h} 	<!--font awesome test-->
+						<EditorLine class="text-green-700 font-bold">// {h} 	<!--font awesome test-->
 
 		<span class="fa-stack fa-1x">
-			<i class="fas fa-circle fa-stack-2x text-slate-600/5"></i>
-			<i class="fas {o.icon} fa-stack-1x fa-inverse text-sky-700"></i>
+			<i class="fas {o.icon} fa-stack-1x fa-inverse text-green-700"></i>
 		</span>
 
 	<!--end font awesome test--></EditorLine>
