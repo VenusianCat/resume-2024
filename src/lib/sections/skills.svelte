@@ -4,94 +4,86 @@
 
 	const skillSets = [
 		{
-			skillSetHeading: ['Languages'],
-			skills: [
-				{ name: 'Executive', level: 80 },
-				{ name: 'Engineer', level: 85 },
-				{ name: 'English', level: 99 }
+			skillSetHeading: ['Bridging Domains'],
+			icon: 'fa-magic',
+			description: [
+				{line:'I '},{line:'the C-suite to the engine'},{line:'room.'}
 			]
 		},
 		{
-			skillSetHeading: ['Backend'],
-			skills: [
-				{ name: 'ASP.NET', level: 95, comment: 'Core, 4x, etc.' },
-				{ name: 'Azure Functions', level: 85 },
-				{ name: 'Dapr', level: 70 }
+			skillSetHeading: ['Getting Things Done'],
+			icon: 'fa-check-square',
+			description: [
+				{line:'something goes here'}
 			]
 		},
 		{
-			skillSetHeading: ['Data'],
-			skills: [
-				{ name: 'Cosmos DB', level: 90 },
-				{ name: 'Redis', level: 85 },
-				{ name: 'SQL Server', level: 75 }
+			skillSetHeading: ['Encouraging All Voices'],
+			icon: 'fa-code-branch',
+			description: [
+				{line:'/* an aptitude for connecting'},{line:'the C-suite to the engine'},{line:'room. */'}
 			]
 		},
 		{
-			skillSetHeading: ['Frontend'],
-			skills: [
-				{ name: 'Svelte/SvelteKit', level: 75 },
-				{ name: 'Tailwind', level: 60 },
-				{ name: 'React/Next', level: 50 }
+			skillSetHeading: ['Conveying Ideas'],
+			icon: 'fa-lightbulb',
+			description: [
+				{line:'/* an aptitude for connecting'},{line:'the C-suite to the engine'},{line:'room. */'}
 			]
 		},
 		{
-			skillSetHeading: ['Cloud'],
-			skills: [
-				{ name: 'Azure', level: 85 },
-				{ name: 'Akamai', level: 40 },
-				{ name: 'Cloudflare', level: 35 }
+			skillSetHeading: ['Designing Systems'],
+			icon: 'fa-cogs',
+			description: [
+				{line:'/* an aptitude for connecting'},{line:'the C-suite to the engine'},{line:'room. */'}
 			]
 		},
 		{
-			skillSetHeading: ['CI/CD'],
-			skills: [
-				{ name: 'Azure DevOps', level: 85 },
-				{ name: 'GitHub', level: 40 }
+			skillSetHeading: ['Coding'],
+			icon: 'fa-code',
+			description: [
+				{line:'/* an aptitude for connecting'},{line:'the C-suite to the engine'},{line:'room. */'}
 			]
 		}
 	];
+
 </script>
 
-<div class="bg-slate-200">
+<div class="bg-gradient-to-tr from-indigo-200 via-red-200 to-yellow-100">
 	<div class="relative z-40 mx-auto max-w-7xl px-4 pb-6 pt-12">
 		<div
-			class="absolute top-0 z-0 mx-auto hidden h-full w-full bg-[url('/images/x-coffee.webp')] bg-right-top bg-no-repeat py-24 bg-blend-normal md:block">
+			class="absolute top-0 z-0 mx-auto hidden h-full w-full py-24 bg-blend-normal md:block">
 		</div>
 
 		<h2
-			class="z-10 font-['Roboto_Mono'] text-xl leading-none tracking-tight text-slate-700 mb-12">
-			<span class="text-slate-700/50">~/</span>ProfessionalProfile
+			class="z-10 mb-12 font-['Roboto_Mono'] text-xl leading-none tracking-tight text-slate-700">
+			// Core Skills
 		</h2>
 
 		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
 			{#each skillSets as o, i}
-				<Window>
+				<Window icon={o.icon}>
 					{#each o.skillSetHeading as h, j}
-						<EditorLine class="text-sky-700"># {h}</EditorLine>
+						<EditorLine class="text-sky-700 font-bold">// {h} 	<!--font awesome test-->
+
+		<span class="fa-stack fa-1x">
+			<i class="fas fa-circle fa-stack-2x text-slate-600/5"></i>
+			<i class="fas {o.icon} fa-stack-1x fa-inverse text-sky-700"></i>
+		</span>
+
+	<!--end font awesome test--></EditorLine>
 					{/each}
-					{#each o.skills as s, j}
-						<EditorLine />
-						<EditorLine>
-							{s.name}
-							{#if s.comment}
-								<span class="text-slate-400/80"># {s.comment}</span>
-							{/if}
-						</EditorLine>
-						<EditorLine>
-							<div class="absolute top-1 w-full pl-10">
-								<div class="rounded-full bg-slate-900/75">
-									<div
-										class="h-1 rounded-full bg-zinc-50 pl-10"
-										style="width: {s.level}%">
-									</div>
-								</div>
-							</div>
+					<EditorLine class="font-normal text-zinc-900">/*</EditorLine>	
+					{#each o.description as s, j}
+						<EditorLine class="font-normal text-zinc-900">
+							{s.line}
 						</EditorLine>
 					{/each}
-					{#each Array(11 - (o.skills.length * 3 + o.skillSetHeading.length)) as _, j}
+					<EditorLine class="font-normal text-zinc-900">*/</EditorLine>
+					<EditorLine />
+					<!--{#each Array(11 - (o.description.length * 3 + 2)) as _, j}
 						<EditorLine />
-					{/each}
+					{/each}-->
 				</Window>
 			{/each}
 		</div>

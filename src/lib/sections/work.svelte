@@ -23,15 +23,12 @@
 
 	const work = [
 		{
-			from: 'Nov, 2019',
+			from: 'Jan, 2012',
 			to: 'Present',
-			title: 'Systems Architect',
-			workPlace: '@Encora/Blick Art Materials',
+			title: 'Senior Director of Digital Strategy',
+			workPlace: 'Travel Portland',
 			body: [
-				'I am currently work on the design and development of backend systems for the Blick online store. This includes both cloud hosted and on-premise services using a variety of technology stacks, mainly .NET and Azure serverless.',
-				'This has allowed me to work in multiple business domains such as inventory, pricing, cart, checkout, as well as different architectural approaches such as microservices and event driven.',
-				"Observability and monitoring are a big part of my job, for which I've been using services like Azure Monitor and New Relic.",
-				'Recently we have started introducing AI in our internal processes, to allow users to access our knowledge base with natural language, enriched by our different management systems such as our Git repositories, Jira and Confluence. This has been possible with new tools like Open AI, Azure AI Studio and Pinecone.'
+				"I lead the organization's digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company's Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers."
 			],
 			keywords: [
 				'ASP.NET Core',
@@ -55,17 +52,24 @@
 				'Event Driven',
 				'Retail'
 			],
-			icons: [DotNet, Azure, Cosmos, AzureSql, AzureDevops, AzureFunctions, AzureAiStudio, OpenAi]
+			icons: [
+				DotNet,
+				Azure,
+				Cosmos,
+				AzureSql,
+				AzureDevops,
+				AzureFunctions,
+				AzureAiStudio,
+				OpenAi
+			]
 		},
 		{
-			from: 'Feb 2018',
-			to: 'Nov 2019',
-			title: 'Fullstack Developer',
-			workPlace: '@iTexico (acquired by Improving)',
+			from: '2008',
+			to: '2012',
+			title: 'Director of Web Development',
+			workPlace: 'One Economy Corporation',
 			body: [
-				'One of my main responsibilities was developing the back-end for a money transfer mobile app. Using ASP.NET Core, I built secure, RESTful APIs and integrated with third party services to integrate payments, KYC, fraud detection, banking, etc.',
-				'On the front-end side, I worked with React to build user interfaces and libraries like Redux and MobX for state management.',
-				'I was also involved with the initial setup of CI/CD pipelines on Azure DevOps. Automated building, testing, and deployment was critical for our workflow, helping us deliver new features and updates more efficiently.'
+				'I directed the Web Development and Product Management verticals of the Media Division, with up to 17 reports, and provided technical leadership across such initiatives as The Public Internet Channel , The Beehive and Applications for Good with a combined traffic in excess of 1M unique visitors per month.'
 			],
 			keywords: [
 				'C#',
@@ -91,7 +95,16 @@
 				'Mobile Payments',
 				'Git'
 			],
-			icons: [DotNet, Typescript, Javascript, React, Redis, AzureSql, AzureDevops, Docker]
+			icons: [
+				DotNet,
+				Typescript,
+				Javascript,
+				React,
+				Redis,
+				AzureSql,
+				AzureDevops,
+				Docker
+			]
 		},
 		{
 			from: 'Nov 2012',
@@ -121,7 +134,15 @@
 				'Finance',
 				'Git'
 			],
-			icons: [DotNet, Typescript, Javascript, Angular, SqlServer, Redis, Powershell]
+			icons: [
+				DotNet,
+				Typescript,
+				Javascript,
+				Angular,
+				SqlServer,
+				Redis,
+				Powershell
+			]
 		},
 		{
 			from: 'Dec 2010',
@@ -200,31 +221,30 @@
 </script>
 
 <div
-	class="left-0 -mt-2 w-full overflow-hidden border-t-8 border-slate-700 bg-slate-800 pb-12 pt-24 md:py-24"
->
+	class="left-0 -mt-2 w-full overflow-hidden border-t-8 border-slate-700 bg-slate-800 pb-12 pt-24 md:py-24">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<div
 			class="parallax absolute
-			-top-24 right-48 z-0 -mx-96 h-full w-full bg-[url('/images/keyboard.webp')] bg-contain bg-no-repeat opacity-50 bg-blend-normal drop-shadow [--parallax-speed:5] sm:right-24 sm:bg-auto md:-right-[10vw] lg:opacity-100"
-		></div>
+			-top-24 right-48 z-0 -mx-96 h-full w-full bg-[url('/images/keyboard.webp')] bg-contain bg-no-repeat opacity-50 bg-blend-normal drop-shadow [--parallax-speed:5] sm:right-24 sm:bg-auto md:-right-[10vw] lg:opacity-100">
+		</div>
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto font-['Roboto_Mono'] text-xl leading-none tracking-wide text-[#fce4b8]"
-			>
-				<span class="text-white/50">~/</span>EXPERIENCE
+				class="relative z-10 mx-auto font-['Roboto_Mono'] text-xl leading-none tracking-wide text-[#fce4b8]">
+				<span class="text-white/50">~/</span>
+				EXPERIENCE
 			</h2>
 		</a>
-		<p class="cursor -ml-2 mb-20 block font-['Roboto_Mono'] text-lg text-white/50" id="cursor-4">
+		<p
+			class="cursor -ml-2 mb-20 block font-['Roboto_Mono'] text-lg text-white/50"
+			id="cursor-4">
 			&#x2590;
 		</p>
 		<p
-			class="relative z-20 mb-24 text-pretty pr-24 text-2xl font-medium leading-tight tracking-tight text-slate-300 drop-shadow-lg md:text-3xl lg:w-1/2"
-		>
+			class="relative z-20 mb-24 text-pretty pr-24 text-2xl font-medium leading-tight tracking-tight text-slate-300 drop-shadow-lg md:text-3xl lg:w-1/2">
 			The places I have worked at and what I got to build.
 		</p>
 		<div
-			class="relative mx-auto space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent"
-		>
+			class="relative mx-auto space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
 			{#each work as w, i}
 				<Milestone
 					from={w.from}
@@ -234,8 +254,7 @@
 					body={w.body}
 					keywords={w.keywords}
 					icons={w.icons}
-					active={i === 0}
-				></Milestone>
+					active={i === 0}></Milestone>
 			{/each}
 		</div>
 	</div>
