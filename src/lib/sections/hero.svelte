@@ -17,7 +17,7 @@
 				<p>
 					<span class="font-normal text-zinc-100/30">2</span>
 					&nbsp;&nbsp;
-					<span class="text-slate-600">author:&nbsp;'</span><span class="text-slate-300">Richard Tammar</span><span class="text-slate-600">',</span>
+					<span class="text-slate-600">author:&nbsp;'</span><span class="text-slate-300">Richard Tammar</span><span class="text-slate-600">'</span>
 				</p>
 
 				<!--<p>

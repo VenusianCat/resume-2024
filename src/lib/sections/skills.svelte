@@ -57,20 +57,16 @@
 
 		<h2
 			class="z-10 mb-12 font-['Roboto_Mono'] text-xl leading-none tracking-tight text-slate-700">
-			// Core Skills
+			// CORE SKILLS
 		</h2>
 
 		<div class="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
 			{#each skillSets as o, i}
 				<Window icon={o.icon}>
 					{#each o.skillSetHeading as h, j}
-						<EditorLine class="text-green-700 font-bold">// {h} 	<!--font awesome test-->
-
-		<span class="fa-stack fa-1x">
-			<i class="fas {o.icon} fa-stack-1x fa-inverse text-green-700"></i>
-		</span>
-
-	<!--end font awesome test--></EditorLine>
+						<EditorLine class="text-green-700 font-bold">// &nbsp;<!--font awesome icon-->
+			<i class="fas {o.icon} fa-inverse text-green-700"></i>&nbsp;
+	<!--end font awesome icon-->{h}</EditorLine>
 					{/each}
 					<EditorLine class="font-normal text-zinc-900">/*</EditorLine>	
 					{#each o.description as s, j}
@@ -88,3 +84,11 @@
 		</div>
 	</div>
 </div>
+<style lang="postcss">
+	i {
+		position: relative;
+		top: 0px;
+	}
+
+
+</style>
