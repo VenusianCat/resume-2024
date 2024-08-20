@@ -27,31 +27,21 @@
 			to: 'Present',
 			title: 'Senior Director of Digital Strategy',
 			workPlace: 'Travel Portland',
-			locationDescription: 'Travel Portland is considered to be one of the most innovative and effective Destination Marketing Organizations in the United States and is a significant contributor to the city\'s $6bn tourism sector.',
+			locationDescription:
+				"Travel Portland is recognized as one of the most innovative and effective Destination Marketing Organizations in the United States and is a significant contributor to the city's $6bn tourism sector.",
 			body: [
-				'I lead the organization\'s digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company\'s Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers.'
+				"I lead the organization's digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company's Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers."
 			],
 			keywords: [
-				'ASP.NET Core',
-				'Azure SQL Server',
-				'Cosmos DB',
-				'Azure DevOps',
-				'Azure Service Bus',
-				'Azure Storage',
-				'Azure Monitor',
-				'Redis',
-				'Azure Durable Functions',
-				'Azure API Management',
-				'Git',
-				'Docker',
-				'Azure AI Studio',
-				'Open AI',
-				'Pinecone',
-				'New Relic',
-				'eCommerce',
-				'Microservices',
-				'Event Driven',
-				'Retail'
+				'Team Leadership',
+				'Platform Architecture',
+				'Systems Architecture',
+				'WordPress',
+				'JavaScript',
+				'PHP',
+				'SQL (MySQL, MSSQL)',
+				'JIRA',
+				'git'
 			],
 			icons: [
 				DotNet,
@@ -69,33 +59,22 @@
 			to: '2012',
 			title: 'Director of Web Development',
 			workPlace: 'One Economy Corporation',
-			locationDescription: 'One Economy Corporation was a Washington, D.C. based, global nonprofit organization that connected underserved communities around the world to the internet and its resources.',
+			locationDescription:
+				'One Economy Corporation was a Washington, D.C.-based, global nonprofit that connected underserved communities around the world to the internet and tailor-made informational resources.',
 			body: [
-				'I directed the Web Development and Product Management verticals of the Media Division, with up to 17 reports, and provided technical leadership across such initiatives as The Public Internet Channel , The Beehive and Applications for Good with a combined traffic in excess of 1M unique visitors per month.'
+				'I directed the Web Development and Product Management verticals of the Media Division, with up to 17 reports, and provided technical leadership across such initiatives as The Public Internet Channel, The Beehive and Applications for Good, with a combined traffic in excess of 1M unique visitors per month.'
 			],
 			keywords: [
-				'C#',
-				'ASP.NET Core',
-				'React',
-				'Azure SQL Server',
-				'Azure DevOps',
-				'Azure Service Bus',
-				'Azure Storage',
-				'Azure Application Insights',
-				'Redis',
-				'Redux',
-				'Mobx',
-				'Entity Framework Core',
-				'Hangfire',
-				'Docker',
-				'Azure Functions',
-				'Azure API Management',
-				'Remittances',
-				'KYC',
-				'Fraud Detection',
-				'Banking',
-				'Mobile Payments',
-				'Git'
+				'Team Leadership',
+				'Platform Architecture',
+				'Systems Architecture',
+				'WordPress',
+				'Drupal',
+				'JavaScript',
+				'PHP',
+				'SQL (MySQL, MSSQL)',
+				'JIRA',
+				'C#'
 			],
 			icons: [
 				DotNet,
@@ -113,26 +92,20 @@
 			to: '2008',
 			title: 'Web Manager',
 			workPlace: 'Lattice Semiconductor',
-			locationDescription: 'Lattice Semiconductor Corporation (NASDAQ: LSCC) designs high-performance programmable logic devices with annual revenues of around $600M.',
+			locationDescription:
+				'Lattice Semiconductor Corporation (NASDAQ: LSCC) designs high-performance programmable logic devices with annual revenues of around $600M.',
 			body: [
-				'I directed the corporation\'s global web presence, intranet, extranet and email marketing programs. I managed the web team and reengineered the corporate web site, significantly enhancing customer-satisfaction, usability, lead generation and organic search rank; significantly reducing support and maintenance overheads and marketing lead times.'
+				"I directed the corporation's global web presence, intranet, extranet and email marketing programs. I managed the web team and reengineered the corporate web site, significantly enhancing customer-satisfaction, usability, lead generation and organic search rank; significantly reducing support and maintenance overheads and marketing lead times."
 			],
 			keywords: [
-				'C#',
-				'ASP.NET',
-				'SQL Server',
-				'MVC',
-				'Web API',
-				'WCF',
-				'Angular',
-				'Redux',
-				'Entity Framework',
-				'Compliance',
-				'Risk Management',
-				'Inventory Management',
-				'Retail',
-				'Finance',
-				'Git'
+				'Content Management Systems',
+				'Platform Architecture',
+				'Team Leadership',
+				'SEO',
+				'Email Marketing',
+				'SQL (Oracle, MySQL)',
+				'PHP',
+				'Coldfusion'
 			],
 			icons: [
 				DotNet,
@@ -149,23 +122,23 @@
 			to: '2004',
 			title: 'Web Manager',
 			workPlace: 'University of Sussex',
-			locationDescription: 'The University of Sussex is a leading British public research university, with over 3,000 staff and 18,000 students.',
+			locationDescription:
+				'The University of Sussex is a leading British public research university.',
 			body: [
-				'I was responsible for the University\'s web presence, ran technical lead on all major web development initiatives and line managed the University web team. I built a campus-wide content management system, enabling non-technical staff in 100+ subordinate units to maintain an independent departmental website without compromising our brand. The CMS integrated with HR and curriculum systems to ensure currency of personnel data, program specifications et al. Through so doing I increased usability, reduced technical overheads and cut support costs.'
+				"I was responsible for the University's web presence, ran technical lead on all major web development initiatives and line managed the University web team. We built a campus-wide content management system, enabling non-technical staff in 100+ subordinate units to maintain an independent departmental website while maintaining consistent institutional branding and a unified UX. The CMS integrated with HR and curriculum systems to ensure currency of staff data, program specifications et al. Through so doing we increased usability, reduced technical overheads and cut support costs."
 			],
 			keywords: [
-				'C#',
-				'ASP.NET',
-				'JavaScript',
-				'TypeScript',
-				'Angular',
-				'React',
-				'SQL Server',
-				'Entity Framework Core',
-				'Git'
+				'Team Leadership',
+				'Platform Architecture',
+				'Content Management Systems',
+				'UX',
+				'SQL (Oracle, MySQL)',
+				'Coldfusion',
+				'PHP',
+				'HTML'
 			],
 			icons: [DotNet, Azure, Typescript, Javascript, Angular, React, SqlServer]
-		},
+		}
 	];
 
 	onMount(() => {
@@ -174,7 +147,7 @@
 </script>
 
 <div
-	class="left-0 -mt-2 w-full overflow-hidden border-t-8 border-slate-700 bg-slate-800 pb-12 pt-24 md:py-24">
+	class="left-0 -mt-2 w-full overflow-hidden border-t-8 border-slate-700 bg-slate-800 py-6">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<div
 			class="parallax absolute
@@ -182,7 +155,7 @@
 		</div>
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto mb-10 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-[#fce4b8]">
+				class="relative z-10 mx-auto mb-10 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300">
 				<span class="text-white/50">//</span>
 				EXPERIENCE
 			</h2>

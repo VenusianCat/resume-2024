@@ -3,12 +3,12 @@
 </script>
 
 <div
-	class="relative flex w-full flex-col justify-start overflow-hidden bg-gradient-to-br from-slate-400 to-gray-400 bg-cover bg-right bg-no-repeat px-4 md:h-[40vh] md:bg-[url('/images/headshot-2.jpg')]">
+	class="relative flex w-full flex-col justify-start overflow-hidden bg-gradient-to-br from-slate-400 to-gray-400 bg-cover bg-right bg-no-repeat px-4 md:bg-[url('/images/headshot-2.jpg')]">
 	<ul class="flex items-end justify-between text-slate-700">
-		<li class="glass my-4 block p-5 text-sm tracking-tight md:text-3xl">
+		<li class="my-3 block tracking-tight md:text-3xl">
 			<!--mock code block-->
 			<div
-				class="my-2 font-['Roboto_Mono'] font-medium leading-none tracking-tight drop-shadow">
+				class="glass p-5 my-2 font-['Roboto_Mono'] font-medium leading-none tracking-tight drop-shadow">
 				<p>
 					<span class="font-normal text-zinc-100/30">1</span>
 					<span class="text-slate-700">&nbsp;&lbrace;</span>
@@ -32,11 +32,15 @@
 				</p>
 			</div>
 			<!-- end mock code block -->
-			<p class="max-w-[30rem] pt-10 text-lg text-slate-700">
+			<p class="max-w-[35rem] pt-3 pl-1 mb-4 text-xl text-slate-300 drop-shadow">
 				Veteran technologist with a knack for connecting the C-suite to the
 				engine room. Warm, curious and analytical, I work to catalyze positive
 				change.
 			</p>
+			<!--mock code block-->
+
+	<!-- end mock code block -->
+
 		</li>
 		<li class="flex-1"></li>
 		<li class="self-start">
@@ -77,4 +81,5 @@
 			border: 1px solid rgba(255, 255, 255, 0.1);
 		}
 	}
+	i {position: relative; }
 </style>

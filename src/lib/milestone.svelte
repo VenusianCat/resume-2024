@@ -28,7 +28,7 @@
 				{heading}
 			</h2>
 			<h3
-				class="font-['Roboto_Mono'] text-sm tracking-tight text-[#fce4b8] drop-shadow lg:text-base">
+				class="font-['Roboto_Mono'] tracking-tight text-orange-400 drop-shadow lg:text-base">
 				{subheading}
 			</h3>
 		</div>
