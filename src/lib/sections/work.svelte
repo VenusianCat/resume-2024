@@ -28,7 +28,7 @@
 			title: 'Senior Director of Digital Strategy',
 			workPlace: 'Travel Portland',
 			locationDescription:
-				"Travel Portland is recognized as one of the most innovative and effective Destination Marketing Organizations in the United States and is a significant contributor to the city's $6bn tourism sector.",
+				"Travel Portland is recognized as one of the most innovative and effective Destination Marketing Organizations in the United States and is the primary driver of the city's $6bn tourism sector.",
 			body: [
 				"I lead the organization's digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company's Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers."
 			],
