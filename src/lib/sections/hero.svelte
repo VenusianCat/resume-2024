@@ -32,9 +32,9 @@
 				</p>
 			</div>
 			<!-- end mock code block -->
-			<p class="max-w-[35rem] pt-3 pl-1 mb-4 text-xl text-slate-300 drop-shadow">
+			<p class="max-w-[35rem] pt-3 pl-1 mb-4 text-xl text-slate-200/80 drop-shadow ">
 				Veteran technologist with a knack for connecting the C-suite to the
-				engine room. Warm, curious and analytical, I work to catalyze positive
+				engine room. Empathetic, curious and analytical, I work to catalyze positive
 				change.
 			</p>
 			<!--mock code block-->
