@@ -29,7 +29,7 @@
 			</h2>
 			<h3
 				class="font-['Roboto_Mono'] tracking-tight text-orange-400 drop-shadow lg:text-base">
-				{subheading}
+				{subheading} <span class="visible sm:invisible">({from} - {to})</span>
 			</h3>
 		</div>
 		<div

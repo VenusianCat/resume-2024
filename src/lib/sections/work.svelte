@@ -1,25 +1,7 @@
 <script lang="ts">
-	import AzureAiStudio from '$lib/icons/azure-ai-studio.svelte';
-	import AzureDevops from '$lib/icons/azure-devops.svelte';
-	import AzureFunctions from '$lib/icons/azure-functions.svelte';
-	import AzureSql from '$lib/icons/azure-sql.svelte';
-	import Azure from '$lib/icons/azure.svelte';
-	import Cosmos from '$lib/icons/cosmos.svelte';
-	import DotNet from '$lib/icons/dot-net.svelte';
-	import OpenAi from '$lib/icons/open-ai.svelte';
-	import Milestone from '$lib/milestone.svelte';
-	import Javascript from '$lib/icons/javascript.svelte';
-	import Typescript from '$lib/icons/typescript.svelte';
-	import React from '$lib/icons/react.svelte';
-	import Docker from '$lib/icons/docker.svelte';
-	import Redis from '$lib/icons/redis.svelte';
-	import Angular from '$lib/icons/angular.svelte';
-	import SqlServer from '$lib/icons/sql-server.svelte';
-	import Powershell from '$lib/icons/powershell.svelte';
-	import Jquery from '$lib/icons/jquery.svelte';
-	import C from '$lib/icons/c.svelte';
 	import { onMount } from 'svelte';
 	import { activateOnScroll } from '$lib/util';
+	import Milestone from '$lib/milestone.svelte';
 
 	const work = [
 		{
@@ -43,16 +25,7 @@
 				'JIRA',
 				'git'
 			],
-			icons: [
-				DotNet,
-				Azure,
-				Cosmos,
-				AzureSql,
-				AzureDevops,
-				AzureFunctions,
-				AzureAiStudio,
-				OpenAi
-			]
+			icons: []
 		},
 		{
 			from: '2008',
@@ -76,16 +49,7 @@
 				'JIRA',
 				'C#'
 			],
-			icons: [
-				DotNet,
-				Typescript,
-				Javascript,
-				React,
-				Redis,
-				AzureSql,
-				AzureDevops,
-				Docker
-			]
+			icons: []
 		},
 		{
 			from: '2004',
@@ -107,15 +71,7 @@
 				'PHP',
 				'Coldfusion'
 			],
-			icons: [
-				DotNet,
-				Typescript,
-				Javascript,
-				Angular,
-				SqlServer,
-				Redis,
-				Powershell
-			]
+			icons: []
 		},
 		{
 			from: '1999',
@@ -137,7 +93,7 @@
 				'PHP',
 				'HTML'
 			],
-			icons: [DotNet, Azure, Typescript, Javascript, Angular, React, SqlServer]
+			icons: []
 		}
 	];
 

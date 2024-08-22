@@ -3,6 +3,8 @@
 	import '../app.css';
 	import GitHub from '$lib/icons/git-hub.svelte';
 	import LinkedIn from '$lib/icons/linked-in.svelte';
+	import Instagram from '$lib/icons/instagram.svelte';
+	import Amazon from '$lib/icons/amazon.svelte';
 </script>
 
 <Svrollbar />
@@ -31,6 +33,18 @@
 				</ol>
 			</li>
 			<li class="flex">
+				<a
+					href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882"
+					class="block h-8 w-8 p-1 mr-1">
+					<Amazon />
+				</a>
+
+				<a
+					href="https://www.instagram.com/venusiancat/?hl=en"
+					class="block h-8 w-8 p-1 mr-1">
+					<Instagram />
+				</a>
+
 				<a
 					href="https://github.com/VenusianCat"
 					class="-ml-1 -mt-1 block h-10 w-10 p-1">
