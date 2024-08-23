@@ -1,12 +1,9 @@
 <script lang="ts">
-	import type { Component } from 'svelte';
-
 	export let heading = '';
 	export let subheading = '';
 	export let preamble = '';
 	export let body: string[] = [];
 	export let keywords: string[] = [];
-	//export let icons: Component[] = [];
 	export let from = '';
 	export let to = '';
 	export let active = false;
@@ -17,7 +14,7 @@
 	class:active>
 	<!-- Date -->
 	<time
-		class="glass hidden h-20 w-48 shrink-0 items-center justify-center rounded-bl border border-b-black/10 border-l-white/10 border-r-black/10 border-t-white/10 bg-white/20 p-2 font-['Roboto_Mono'] text-normal font-semibold text-slate-300 shadow sm:flex">
+		class="glass text-normal hidden h-20 w-48 shrink-0 items-center justify-center rounded-bl border border-b-black/10 border-l-white/10 border-r-black/10 border-t-white/10 bg-white/20 p-2 font-['Roboto_Mono'] font-semibold text-slate-300 shadow sm:flex">
 		{from} - {to}
 	</time>
 	<!-- Card -->
@@ -29,14 +26,15 @@
 			</h2>
 			<h3
 				class="font-['Roboto_Mono'] tracking-tight text-orange-400 drop-shadow lg:text-base">
-				{subheading} <span class="visible sm:invisible">({from} - {to})</span>
+				{subheading}
+				<span class="visible sm:invisible">({from} - {to})</span>
 			</h3>
 		</div>
 		<div
 			class="col-span-2 mt-6 flex flex-col gap-4 text-pretty text-xs text-slate-300 sm:text-sm">
 			<p class="italic leading-normal tracking-normal">{preamble}</p>
 			{#each body as paragraph}
-				<p class="leading-normal tracking-normal">{paragraph}</p>
+				<p class="leading-normal tracking-normal">{@html paragraph}</p>
 			{/each}
 			<div class="my-6">
 				<ul
@@ -47,10 +45,5 @@
 				</ul>
 			</div>
 		</div>
-		<!--<div class="flex flex-wrap gap-3.5">
-			{#each icons as icon}
-				<svelte:component this={icon} />
-			{/each}
-		</div>-->
 	</div>
 </div>

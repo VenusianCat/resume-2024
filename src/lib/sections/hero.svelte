@@ -44,7 +44,7 @@
 	<!-- end mock code block -->
 
 		
-		<div class="absolute top-1 right-1 text-slate-700">
+		<div class="absolute top-1 right-2 text-slate-700">
 			<a
 				href="https://www.linkedin.com/in/richard-tammar/"
 				class="-mr-1 block h-12 w-12 p-1">

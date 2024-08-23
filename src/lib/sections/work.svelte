@@ -12,7 +12,7 @@
 			locationDescription:
 				"Travel Portland is recognized as one of the most innovative and effective Destination Marketing Organizations in the United States and is the primary driver of the city's $6bn tourism sector.",
 			body: [
-				"I lead the organization's digital strategy and direct its core products – including the multi-award-winning TravelPortland.com and Near Me Now. Additionally, I chair the company's Systems Integration Team and direct a team of internal and external specialists, SMEs and service providers."
+				'I am responsible for the organization\'s digital strategy, data systems and core digital products, including the multi-award-winning <a class="underline" href="https://travelportland.com">TravelPortland.com</a> and the <a class="underline" href="https://apps.apple.com/us/app/portland-near-me-now/id1661418385">Near Me Now</a> mobile app. Additionally, I chair the company\'s Systems Integration Team and direct a team of in house and contract specialists and service providers.'
 			],
 			keywords: [
 				'Team Leadership',
@@ -33,9 +33,9 @@
 			title: 'Director of Web Development',
 			workPlace: 'One Economy Corporation',
 			locationDescription:
-				'One Economy Corporation was a Washington, D.C.-based, global nonprofit that connected underserved communities around the world to the internet and tailor-made informational resources.',
+				'In 2012, One Economy Corporation was a US-based nonprofit that connected underserved communities around the globe to the internet and tailor-made informational resources.',
 			body: [
-				'I directed the Web Development and Product Management verticals of the Media Division, with up to 17 reports, and provided technical leadership across such initiatives as The Public Internet Channel, The Beehive and Applications for Good, with a combined traffic in excess of 1M unique visitors per month.'
+				'I directed the Web Development and Product Management verticals of the Media Division (a total of 17 staff), and provided technical leadership for <i>The Public Internet Channel</i> and <i>Applications for Good</i>, with a combined traffic in excess of 1M unique visitors per month.'
 			],
 			keywords: [
 				'Team Leadership',
@@ -57,7 +57,7 @@
 			title: 'Web Manager',
 			workPlace: 'Lattice Semiconductor',
 			locationDescription:
-				'Lattice Semiconductor Corporation (NASDAQ: LSCC) designs high-performance programmable logic devices with annual revenues of around $600M.',
+				'Lattice Semiconductor Corporation (NASDAQ: LSCC) designs high-performance programmable logic devices.',
 			body: [
 				"I directed the corporation's global web presence, intranet, extranet and email marketing programs. I managed the web team and reengineered the corporate web site, significantly enhancing customer-satisfaction, usability, lead generation and organic search rank; significantly reducing support and maintenance overheads and marketing lead times."
 			],
@@ -81,7 +81,7 @@
 			locationDescription:
 				'The University of Sussex is a leading British public research university.',
 			body: [
-				"I was responsible for the University's web presence, ran technical lead on all major web development initiatives and line managed the University web team. We built a campus-wide content management system, enabling non-technical staff in 100+ subordinate units to maintain an independent departmental website while maintaining consistent institutional branding and a unified UX. The CMS integrated with HR and curriculum systems to ensure currency of staff data, program specifications et al. Through so doing we increased usability, reduced technical overheads and cut support costs."
+				"I was responsible for the University's web presence, ran technical lead on all major web development initiatives and line managed the University web team. We were one of the very first universities to develop a campus-wide content management system, enabling non-technical staff in 100+ subordinate units to maintain an independent departmental website while maintaining consistent institutional branding and a unified UX. The CMS integrated with HR and curriculum systems to ensure currency of staff data, program specifications <i>et al</i>. Through so doing we increased usability, reduced technical overheads and cut support costs."
 			],
 			keywords: [
 				'Team Leadership',
