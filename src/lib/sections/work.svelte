@@ -111,13 +111,13 @@
 		</div>
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto mb-10 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300">
+				class="relative z-10 mx-auto mb-6 sm:mb-10 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300">
 				<span class="text-white/50">//</span>
-				EXPERIENCE
+				WORK EXPERIENCE
 			</h2>
 		</a>
 		<div
-			class="relative mx-auto space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
+			class="relative mx-auto space-y-6 sm:space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
 			{#each work as w, i}
 				<Milestone
 					from={w.from}
