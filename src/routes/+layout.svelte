@@ -7,13 +7,13 @@
 	import Amazon from '$lib/icons/amazon.svelte';
 </script>
 
-<Svrollbar />
+
 
 <main>
 	<slot />
 </main>
 <footer
-	class="left-0 -mt-2 w-full overflow-hidden bg-gradient-to-b from-slate-900 to-slate-900 py-12">
+	class="bg-slate-900 py-8">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a
 			href="#top"
@@ -21,17 +21,7 @@
 			RICHARD TAMMAR
 		</a>
 		<ul
-			class="flex justify-between border-t border-slate-800 pt-8 text-sm text-slate-500 sm:gap-32">
-			<li class="hidden flex-1 sm:block"></li>
-			<li>
-				<ol
-					class="flex flex-col gap-2 font-medium leading-loose tracking-tight">
-					<!--<li><a href="#about">ABOUT ME</a></li>
-					<li><a href="#skills">SKILLS</a></li>-->
-					<li><a href="#work">EXPERIENCE</a></li>
-					<li><a href="#education">EDUCATION</a></li>
-				</ol>
-			</li>
+			class="flex justify-end border-t border-slate-800 pt-8 text-sm text-slate-500 sm:gap-32">
 			<li class="flex">
 				<a
 					href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882"

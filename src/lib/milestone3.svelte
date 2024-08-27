@@ -30,11 +30,11 @@
 				<div class="flex justify-between gap-4">
 					<div>
 						<h2
-							class="mb-2 text-lg font-bold sm:tracking-tight text-slate-200 sm:text-xl">
+							class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
 							{@html heading}
 						</h2>
 						<h3
-							class="font-bold tracking-tight text-pink-400 drop-shadow lg:text-base">
+							class="font-bold text-pink-400 drop-shadow lg:text-base">
 							{subheading}
 							<span class="visible sm:invisible">({to})</span>
 						</h3>
@@ -43,16 +43,16 @@
 				</div>
 			{:else}
 				<h2
-					class="mb-2 text-lg font-bold sm:tracking-tight text-slate-200 sm:text-xl">
+					class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
 					{@html heading}
 				</h2>
 				<h3
-					class="font-bold tracking-tight text-pink-400 drop-shadow lg:text-base">
+					class="font-bold text-pink-400 drop-shadow lg:text-base">
 					{subheading}
 					<span class="visible sm:invisible">({to})</span>
 				</h3>
 			{/if}
-			{#if honors}<h3 class="tracking-tight text-slate-200 text-sm mt-2">
+			{#if honors}<h3 class="text-slate-100 text-sm mt-2">
 					honors: <span class="italic">{honors}</span>
 				</h3>{/if}
 		</div>
