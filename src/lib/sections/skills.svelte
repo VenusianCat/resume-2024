@@ -10,9 +10,9 @@
 		},
 		{
 			skillSetHeading: 'Bridging Domains',
-			icon: 'fa-magic',
+			icon: 'fa-link',
 			description:
-				'I\'m fluent in executive and engineering dialects. I enjoy the challenge of aligning praxis with strategy.'
+				'I\'m curious, analytical and am equally conversant with executives and engineers. I enjoy the challenge of aligning praxis with strategy.'
 		},
 		{
 			skillSetHeading: 'Building Teams',
@@ -36,7 +36,7 @@
 			skillSetHeading: 'Coding',
 			icon: 'fa-code',
 			description:
-				'Full-stack if not full-time, I know more than enough to be dangerous.'
+				'Full-stack if not full-time, from SQL to Svelte.'
 		}
 	];
 
@@ -66,21 +66,21 @@
 		<div class="grid gap-4 sm:gap-8 md:grid-cols-2 lg:grid-cols-3">
 			{#each skillSets as o, i}
 				<Window icon={o.icon}>
-					<EditorLine class="font-bold text-slate-700">
-						// &nbsp;<!--font awesome icon-->
-						<i class="fas {o.icon} fa-inverse text-slate-500"></i>
+					<EditorLine class="font-bold text-purple-800/90">
+						# {o.skillSetHeading}&nbsp;<!--font awesome icon-->
+						<i class="fas {o.icon} fa-inverse text-purple-600"></i>
 						&nbsp;
-						<!--end font awesome icon-->{o.skillSetHeading}
+						<!--end font awesome icon-->
 					</EditorLine>
+					<EditorLine />
 
-					<EditorLine class="font-normal text-indigo-200">/*</EditorLine>
 
 					{#each splitStringWithoutBreakingWords(o.description, 40) as s, j}
-						<EditorLine class="font-normal text-slate-900">
+						<EditorLine class="font-normal text-indigo-800/90">
 							{s}
 						</EditorLine>
 					{/each}
-					<EditorLine class="font-normal text-indigo-200">*/</EditorLine>
+
 				</Window>
 			{/each}
 		</div>

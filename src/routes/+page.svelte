@@ -8,7 +8,8 @@
 	import { activateOnScroll, focus, preventDefault, self, trapFocus } from '$lib/util';
 	import Work from '$lib/sections/work.svelte';
 	import NotWork from '$lib/sections/not-work.svelte';
-	import Education from '$lib/sections/education.svelte';
+	//import Education from '$lib/sections/education.svelte';
+	import Education2 from '$lib/sections/education2.svelte';
 
 	onMount(() => {
 		activateOnScroll('.cursor');
@@ -25,7 +26,9 @@
 <div class="relative z-50 h-4 w-full bg-slate-700"></div>
 <NotWork />
 <div class="relative z-50 h-4 w-full bg-slate-700"></div>
-<Education />
+<Education2 />
+<!--<div class="relative z-50 h-4 w-full bg-slate-700"></div>
+<Education />-->
 
 <style lang="postcss">
 	:global(.cursor) {

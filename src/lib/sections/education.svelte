@@ -7,8 +7,10 @@
 				EDUCATION
 			</h2>
 		</a>
-		<div class="flex sm:justify-center">
-			<div class="glass mb-6 inline-block pt-4 sm:mb-12 sm:p-6">
+		<div
+			class="relative mx-auto space-y-6 ">
+			<div
+				class="glass w-full rounded-lg p-4 shadow sm:p-6">
 				<h2 class="mb-6 text-xl text-slate-700">Degrees</h2>
 				<div class="mb-6 flex items-start gap-6">
 					<div class="flex-none pt-1">
@@ -18,12 +20,11 @@
 							class="size-16 h-auto rounded-lg" />
 					</div>
 					<div class="">
-						<h2
-							class="mt-1 pt-0 tracking-tight text-slate-900 sm:text-lg">
+						<h2 class="mt-1 pt-0 tracking-tight text-slate-900 sm:text-lg">
 							BSc(Hons) Economics with Social Psychology
 						</h2>
 						<h3
-							class="mb-0 pb-0 font-['Roboto_Mono'] tracking-tight text-slate-600 text-sm">
+							class="mb-0 pb-0 font-['Roboto_Mono'] text-sm tracking-tight text-slate-600">
 							London School of Economics and Political Science
 						</h3>
 					</div>
@@ -36,12 +37,11 @@
 							class="size-16 h-auto rounded-lg" />
 					</div>
 					<div class="">
-						<h2
-							class="mt-1 pt-0 tracking-tight text-slate-900 sm:text-lg">
+						<h2 class="mt-1 pt-0 tracking-tight text-slate-900 sm:text-lg">
 							MA Women's Studies
 						</h2>
 						<h3
-							class="mb-0 pb-0 font-['Roboto_Mono'] tracking-tight text-slate-600 text-sm">
+							class="mb-0 pb-0 font-['Roboto_Mono'] text-sm tracking-tight text-slate-600">
 							University of Sussex
 						</h3>
 					</div>
@@ -49,8 +49,9 @@
 			</div>
 		</div>
 
-		<div class="flex sm:justify-center">
-			<div class="glass inline-block pt-4 sm:mb-12 sm:p-6">
+		<div class="relative mx-auto space-y-6">
+			<div
+				class="glass w-full rounded-lg p-4 shadow sm:p-6">
 				<h2 class="mb-4 text-xl text-slate-700">Etcetera</h2>
 				<div class="flex items-start gap-6">
 					<div class="flex-auto pb-6">
@@ -61,13 +62,15 @@
 							class="mb-0 pb-0 font-['Roboto_Mono'] text-sm tracking-tight text-slate-600">
 							University of Brighton
 						</h3>
-						<h2 class="mt-1 pt-0 tracking-tight text-slate-600 text-sm">PGCE (1999)</h2>
+						<h2 class="mt-1 pt-0 text-sm tracking-tight text-slate-600">
+							PGCE (1999)
+						</h2>
 					</div>
 				</div>
-				<div class="mb-6 flex items-start gap-6">
+				<!--<div class="mb-6 flex items-start gap-6">
 					<div class="flex-auto">
 						<h2 class="mt-1 pt-0 text-lg tracking-tight text-slate-900">
-							Photography Certification
+							Photography
 						</h2>
 						<h3
 							class="mb-0 pb-0 font-['Roboto_Mono'] tracking-tight text-slate-600 text-sm">
@@ -75,17 +78,19 @@
 						</h3>
 						<h2 class="mt-1 pt-0 tracking-tight text-slate-600 text-sm">ARTS 1171 (1998)</h2>
 					</div>
-				</div>
+				</div>-->
 				<div class="flex items-start gap-6">
 					<div class="">
-												<h2 class="mt-1 pt-0 text-lg tracking-tight text-slate-900">
-							Tourism Industry Certification
+						<h2 class="mt-1 pt-0 text-lg tracking-tight text-slate-900">
+							Tourism Administration
 						</h2>
 						<h3
-							class="mb-0 pb-0 font-['Roboto_Mono'] tracking-tight text-slate-600 text-sm">
+							class="mb-0 pb-0 font-['Roboto_Mono'] text-sm tracking-tight text-slate-600">
 							Oregon Tourism Leadership Academy
 						</h3>
-						<h2 class="mt-1 pt-0 tracking-tight text-slate-600 text-sm">2023</h2>
+						<h2 class="mt-1 pt-0 text-sm tracking-tight text-slate-600">
+							Certificate (2023)
+						</h2>
 					</div>
 				</div>
 			</div>
@@ -95,15 +100,7 @@
 
 <style lang="postcss">
 	.glass {
-	}
-	@media screen and (min-width: 480px) {
-		.glass {
-			background: rgba(255, 255, 255, 0.3);
-			border-radius: 16px;
-			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-			backdrop-filter: blur(3px);
-			-webkit-backdrop-filter: blur(3px);
-			border: 2px solid rgba(255, 255, 255, 0.5);
-		}
+		background: rgba(255, 255, 255, 0.3);
+		border: 2px solid rgba(255, 255, 255, 0.5);
 	}
 </style>

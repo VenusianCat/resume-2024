@@ -16,11 +16,11 @@
 			icons: []
 		},
 		{
-			from: '2008',
-			to: '2008',
+			from: '2009',
+			to: '2009',
 			title: 'Novelist',
 			workPlace: 'The Marmalade Shore',
-			body: ['My debut (and ultimate) novel , <a class="underline" href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882">The Marmalade Shore</a>, was published in 2009 and was a finalist for awards that I hadn\'t heard of either, but yet, staggeringly, didn\'t win any of them.'],
+			body: ['My debut (and ultimate) novel, <a class="underline" href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882">The Marmalade Shore</a>, was a finalist for awards that I hadn\'t heard of either, and yet, staggeringly, didn\'t win any of them.'],
 			keywords: ['Writing', 'Perseverance', 'Humility'],
 			icons: []
 		},
@@ -28,7 +28,7 @@
 			from: '2000',
 			to: '2003',
 			title: 'Volunteer Fire Fighter',
-			workPlace: 'University of Sussex Response Team',
+			workPlace: 'University of Sussex Rescue Team',
 			body: ['Was part of an first-response team trained to protect lives ahead of professional engagement from the multiplicity of potential hazards on a university campus, including fire, laboratory accidents etc.'],
 			keywords: ['First Aid', 'SCBA', 'Firefighting'],
 			icons: []
@@ -55,7 +55,7 @@
 			</h2>
 		</a>
 		<div
-			class="relative mx-auto space-y-6 sm:space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
+			class="relative mx-auto space-y-6 sm:space-y-8 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
 			{#each work as w, i}
 				<Milestone2
 					from={w.from}
