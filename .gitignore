@@ -131,3 +131,6 @@ dist
 
 # SvelteKit
 .svelte-kit/
+
+# compiled output
+build
