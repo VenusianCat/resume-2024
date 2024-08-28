@@ -12,7 +12,7 @@
 <main>
 	<slot />
 </main>
-<footer class="bg-slate-900 py-60 pt-8">
+<footer class="bg-slate-900 py-40 pt-8">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a
 			href="#top"
