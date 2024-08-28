@@ -24,11 +24,11 @@
 	<div
 		class="glass w-full rounded-lg rounded-b-lg rounded-r-lg border border-b-black/10 border-l-white/10 border-r-black/10 border-t-white/10 bg-white/10 p-4 shadow sm:rounded-tl-none sm:p-6">
 		<div>
-			<h2 class="text-xl font-bold tracking-tight text-slate-300 sm:text-2xl mb-2">
+			<h2 class="text-xl font-bold text-slate-300 sm:text-2xl mb-2">
 				{heading}
 			</h2>
 			<h3
-				class="tracking-tight text-pink-400 font-bold drop-shadow lg:text-base">
+				class="text-pink-400 font-bold lg:text-base">
 				{subheading}
 				{#if from !== to}
 					<span class="visible sm:invisible">({from} - {to})</span>

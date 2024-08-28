@@ -21,22 +21,22 @@
 	<div
 		class="glass w-full rounded-lg rounded-b-lg rounded-r-lg border border-b-black/10 border-l-white/10 border-r-black/10 border-t-white/10 bg-white/10 p-4 shadow sm:rounded-tl-none sm:p-6">
 		<div>
-			<h2 class="text-xl font-bold tracking-tight text-slate-300 sm:text-2xl">
+			<h2 class="text-xl font-bold text-slate-300 sm:text-2xl">
 				{heading}
 			</h2>
 			<h3
-				class="font-['Roboto_Mono'] tracking-tight text-orange-400 drop-shadow lg:text-base">
+				class="text-orange-400 lg:text-base font-bold">
 				{subheading}
 				<span class="visible sm:invisible">({from} - {to})</span>
 			</h3>
 		</div>
 		<div
-			class="col-span-2 mt-6 flex flex-col gap-4 text-pretty text-xs text-slate-300 sm:text-sm">
+			class="col-span-2 mt-4 flex flex-col gap-4 text-pretty text-xs text-slate-300 sm:text-sm">
 			<p class="italic leading-normal tracking-normal">{preamble}</p>
 			{#each body as paragraph}
 				<p class="leading-normal tracking-normal">{@html paragraph}</p>
 			{/each}
-			<div class="my-6">
+			<div class="my-4">
 				<ul
 					class="flex flex-wrap gap-1 font-['Roboto_Mono'] text-[0.7rem] leading-snug tracking-wide text-white/75">
 					{#each keywords as keyword}
