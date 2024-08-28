@@ -18,7 +18,7 @@
 		{
 			from: '1995',
 			to: '1997',
-			title: 'MA Women\'s Studies',
+			title: "MA Women's Studies",
 			workPlace: 'University of Sussex',
 			body: '',
 			keywords: ['History', 'Literature', 'Sociology', 'Law'],
@@ -45,7 +45,7 @@
 </script>
 
 <div
-	class="left-0 -mt-2 w-full overflow-hidden border-t-8 border-slate-700 bg-pink-900 py-6">
+	class="bg-pink-900 py-12">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<div
 			class="parallax absolute
@@ -58,7 +58,7 @@
 			</h2>
 		</a>
 		<div
-			class="relative mx-auto space-y-6 sm:space-y-8 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
+			class="relative mx-auto space-y-6 overflow-hidden via-90% pb-4 sm:space-y-8 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
 			{#each work as w, i}
 				<Milestone3
 					from={w.from}

@@ -8,6 +8,7 @@
 	export let logo = '';
 	export let honors = '';
 	export let active = false;
+	import { base } from '$app/paths';
 </script>
 
 <div
@@ -29,30 +30,26 @@
 			{#if logo}
 				<div class="flex justify-between gap-4">
 					<div>
-						<h2
-							class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
+						<h2 class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
 							{@html heading}
 						</h2>
-						<h3
-							class="font-bold text-pink-400 drop-shadow lg:text-base">
+						<h3 class="font-bold text-pink-400 drop-shadow lg:text-base">
 							{subheading}
 							<span class="visible sm:invisible">({to})</span>
 						</h3>
 					</div>
-					<img src={logo} alt={subheading} class="size-16 rounded-lg" />
+					<img src="{base}{logo}" alt={subheading} class="size-16 rounded-lg" />
 				</div>
 			{:else}
-				<h2
-					class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
+				<h2 class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
 					{@html heading}
 				</h2>
-				<h3
-					class="font-bold text-pink-400 drop-shadow lg:text-base">
+				<h3 class="font-bold text-pink-400 drop-shadow lg:text-base">
 					{subheading}
 					<span class="visible sm:invisible">({to})</span>
 				</h3>
 			{/if}
-			{#if honors}<h3 class="text-slate-100 text-sm mt-2">
+			{#if honors}<h3 class="mt-2 text-sm text-slate-100">
 					honors: <span class="italic">{honors}</span>
 				</h3>{/if}
 		</div>

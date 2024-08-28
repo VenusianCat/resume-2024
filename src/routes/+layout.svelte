@@ -5,15 +5,14 @@
 	import LinkedIn from '$lib/icons/linked-in.svelte';
 	import Instagram from '$lib/icons/instagram.svelte';
 	import Amazon from '$lib/icons/amazon.svelte';
+	export const prerender = true;
+	export const ssr = false;
 </script>
-
-
 
 <main>
 	<slot />
 </main>
-<footer
-	class="bg-slate-900 pt-8 py-40">
+<footer class="bg-slate-900 py-60 pt-8">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a
 			href="#top"
@@ -25,13 +24,13 @@
 			<li class="flex">
 				<a
 					href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882"
-					class="block h-8 w-8 p-1 mr-1">
+					class="mr-1 block h-8 w-8 p-1">
 					<Amazon />
 				</a>
 
 				<a
 					href="https://www.instagram.com/venusiancat/?hl=en"
-					class="block h-8 w-8 p-1 mr-1">
+					class="mr-1 block h-8 w-8 p-1">
 					<Instagram />
 				</a>
 
