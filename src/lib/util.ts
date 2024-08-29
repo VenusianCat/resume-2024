@@ -2,7 +2,7 @@ export function activateOnScroll(selector: string) {
 	const elements = document.querySelectorAll(selector);
 
 	document.addEventListener('scroll', function () {
-		let minDist = 20000;
+		let minDist =500;
 
 		elements.forEach((el) => {
 			let c = el as HTMLElement;

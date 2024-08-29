@@ -41,12 +41,8 @@
 </script>
 
 <div
-	class="left-0 -mt-2 w-full overflow-hidden border-t-8 border-slate-700 bg-sky-900 py-6">
+	class="bg-sky-900 py-12">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
-		<div
-			class="parallax absolute
-			-top-24 right-48 z-0 -mx-96 h-full w-full opacity-50 bg-blend-normal drop-shadow [--parallax-speed:5] sm:right-24 sm:bg-auto md:-right-[10vw] lg:opacity-100">
-		</div>
 		<a id="work">
 			<h2
 				class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300 sm:mb-10">

@@ -36,7 +36,7 @@
 			skillSetHeading: 'Coding',
 			icon: 'fa-code',
 			description:
-				'Full-stack if not full-time, from SQL to Svelte.'
+				'Full-stack, if not full-time, from SQL to Svelte, since childhood.'
 		}
 	];
 
@@ -56,7 +56,7 @@
 	let x;
 </script>
 
-<div class="bg-gradient-to-tr from-red-300 via-indigo-400 to-red-300">
+<div class="bg-gradient-to-tr from-red-300 via-indigo-400 to-red-300 py-4">
 	<div class="relative z-40 mx-auto max-w-7xl px-4 pb-6 pt-6">
 		<h2
 			class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-200 sm:mb-10">
@@ -68,7 +68,7 @@
 				<Window icon={o.icon}>
 					<EditorLine class="font-bold text-purple-800/90">
 						# {o.skillSetHeading}&nbsp;<!--font awesome icon-->
-						<i class="fas {o.icon} fa-inverse text-purple-600"></i>
+						<i class="fas {o.icon} text-purple-600"></i>
 						&nbsp;
 						<!--end font awesome icon-->
 					</EditorLine>

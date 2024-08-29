@@ -12,16 +12,17 @@
 <main>
 	<slot />
 </main>
-<footer class="bg-slate-900 py-40 pt-8">
+<footer class="bg-slate-900 py-60 pt-10">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a
 			href="#top"
 			class="mb-2 block text-base font-bold tracking-tight text-slate-400">
 			RICHARD TAMMAR
 		</a>
-		<ul
-			class="flex justify-end border-t border-slate-800 pt-8 text-sm text-slate-500 sm:gap-32">
-			<li class="flex">
+		<div
+			class="flex justify-between border-t border-slate-800 pt-4 text-sm text-slate-500 sm:gap-32">
+			<div>&copy; Richard Tammar 2024. My thanks to <a href="https://mario.tiscareno.dev" class="underline">Mario Tiscareno</a> for the design inspiration.</div>
+			<div class="flex">
 				<a
 					href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882"
 					class="mr-1 block h-8 w-8 p-1">
@@ -45,8 +46,8 @@
 					class="-mr-1 -mt-1 block h-10 w-10 p-1">
 					<LinkedIn />
 				</a>
-			</li>
-		</ul>
+			</div>
+		</div>
 	</div>
 </footer>
 
