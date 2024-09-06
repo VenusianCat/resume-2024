@@ -12,7 +12,7 @@
 			skillSetHeading: 'Bridging Domains',
 			icon: 'fa-link',
 			description:
-				'I\'m curious, analytical and am equally conversant with executives and engineers. I enjoy the challenge of aligning praxis with strategy.'
+				'I\'m curious, analytical and am equally at home with executives and engineers. I enjoy the challenge of aligning praxis with strategy.'
 		},
 		{
 			skillSetHeading: 'Building Teams',
@@ -24,7 +24,7 @@
 			skillSetHeading: 'Conveying Ideas',
 			icon: 'fa-lightbulb',
 			description:
-				'I don\'t read my reviews, but "Clear, smart, digestible... and highly entertaining" was one of them.'
+				'"Clear, smart, digestible... and highly entertaining"'
 		},
 		{
 			skillSetHeading: 'Designing Systems',
@@ -36,7 +36,7 @@
 			skillSetHeading: 'Coding',
 			icon: 'fa-code',
 			description:
-				'Full-stack, if not full-time, from SQL to Svelte, since childhood.'
+				'Full-stack, from SQL to Svelte, since childhood.'
 		}
 	];
 

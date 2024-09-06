@@ -11,40 +11,13 @@
 <Work />
 <div class="relative z-50 h-4 w-full bg-indigo-900"></div>
 <Skills />
-<div class="relative z-50 h-4 w-full bg-fuchsia-400"></div>
-<NotWork />
-<div class="relative z-50 h-4 w-full bg-sky-950"></div>
+<div class="relative z-50 h-4 w-full bg-violet-400"></div>
+<!--<NotWork />
+<div class="relative z-50 h-4 w-full bg-sky-950"></div>-->
 <Education2 />
 
 <style lang="postcss">
 
-	@keyframes blink {
-		0% {
-			opacity: 1;
-		}
-		49% {
-			opacity: 1;
-		}
-		50% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 0;
-		}
-	}
 
-	@keyframes parallax {
-		to {
-			transform: translateY(calc(var(--parallax-speed) * -200px));
-		}
-	}
 
-	:global(.parallax) {
-		animation: parallax linear;
-		animation-timeline: scroll();
-	}
-
-	:global(form.dirty input:invalid, form.dirty textarea:invalid) {
-		@apply border border-red-500;
-	}
 </style>

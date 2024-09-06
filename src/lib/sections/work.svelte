@@ -12,7 +12,7 @@
 			locationDescription:
 				"Travel Portland is recognized as one of the most innovative and effective Destination Marketing Organizations in the United States and is the primary driver of the city's $6bn tourism sector.",
 			body: [
-				'I am responsible for the organization\'s digital strategy, data systems and core digital products, including the multi-award-winning <a class="underline" href="https://travelportland.com">TravelPortland.com</a> and the <a class="underline" href="https://apps.apple.com/us/app/portland-near-me-now/id1661418385">Near Me Now</a> mobile app. Additionally, I chair the company\'s Systems Integration Team and direct a team of in house and contract specialists and service providers.'
+				'I am responsible for the organization\'s digital strategy, data systems and core digital products, including the multi-award-winning <a class="underline" href="https://travelportland.com">TravelPortland.com</a> and the <a class="underline" href="https://apps.apple.com/us/app/portland-near-me-now/id1661418385">Near Me Now</a> mobile app. Additionally, I chair the company\'s Systems Integration Team and direct a team of in-house and contract specialists and service providers.'
 			],
 			keywords: [
 				'Team Leadership',
@@ -35,7 +35,7 @@
 			locationDescription:
 				'In 2012, One Economy Corporation was a US-based nonprofit that connected underserved communities around the globe to the internet and tailor-made informational resources.',
 			body: [
-				'I directed the Web Development and Product Management verticals of the Media Division (a total of 17 staff), and provided technical leadership for <i>The Public Internet Channel</i> and <i>Applications for Good</i>, with a combined traffic in excess of 1M unique visitors per month.'
+				'I directed the Web Development and Product Management verticals of the Media Division, and provided technical leadership for <i>The Public Internet Channel</i> and <i>Applications for Good</i>, with a combined traffic in excess of 1M unique visitors per month.'
 			],
 			keywords: [
 				'Team Leadership',
@@ -103,7 +103,7 @@
 </script>
 
 <div
-	class="left-0 -mt-2 w-full overflow-hidden  bg-slate-800 py-6">
+	class="left-0 -mt-2 w-full overflow-hidden bg-slate-800 py-6 md:py-12">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a id="work">
 			<h2
