@@ -15,7 +15,7 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: '/test-homepage'
+			base: ''
 		}
 	}
 };

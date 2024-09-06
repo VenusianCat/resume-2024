@@ -15,13 +15,13 @@
 				'I am responsible for the organization\'s digital strategy, data systems and core digital products, including the multi-award-winning <a class="underline" href="https://travelportland.com">TravelPortland.com</a> and the <a class="underline" href="https://apps.apple.com/us/app/portland-near-me-now/id1661418385">Near Me Now</a> mobile app. Additionally, I chair the company\'s Systems Integration Team and direct a team of in-house and contract specialists and service providers.'
 			],
 			keywords: [
+				'Strategic Alignment',
 				'Team Leadership',
-				'Platform Architecture',
 				'Systems Architecture',
 				'WordPress',
 				'JavaScript',
 				'PHP',
-				'SQL (MySQL, MSSQL)',
+				'SQL',
 				'JIRA',
 				'git'
 			],
@@ -39,15 +39,18 @@
 			],
 			keywords: [
 				'Team Leadership',
-				'Platform Architecture',
 				'Systems Architecture',
 				'WordPress',
 				'Drupal',
 				'JavaScript',
 				'PHP',
-				'SQL (MySQL, MSSQL)',
+				'SQL',
 				'JIRA',
-				'C#'
+				'C#',
+				'HTML',
+				'CSS',
+				'SVN',
+				'git'
 			],
 			icons: []
 		},
@@ -67,9 +70,11 @@
 				'Team Leadership',
 				'SEO',
 				'Email Marketing',
-				'SQL (Oracle, MySQL)',
+				'SQL',
 				'PHP',
-				'Coldfusion'
+				'Coldfusion',
+				'HTML',
+				'CSS'
 			],
 			icons: []
 		},
@@ -88,7 +93,7 @@
 				'Platform Architecture',
 				'Content Management Systems',
 				'UX',
-				'SQL (Oracle, MySQL)',
+				'SQL',
 				'Coldfusion',
 				'PHP',
 				'HTML'
@@ -102,18 +107,17 @@
 	});
 </script>
 
-<div
-	class="left-0 -mt-2 w-full overflow-hidden bg-slate-800 py-6 md:py-12">
+<div class="left-0 -mt-2 w-full overflow-hidden bg-slate-800 py-6 md:py-12">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto mb-6 sm:mb-10 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300">
+				class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300 sm:mb-10">
 				<span class="text-white/50">//</span>
 				WORK EXPERIENCE
 			</h2>
 		</a>
 		<div
-			class="relative mx-auto space-y-6 sm:space-y-12 overflow-hidden via-90% pb-4 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
+			class="relative mx-auto space-y-6 overflow-hidden via-90% pb-4 sm:space-y-12 sm:pt-8 sm:before:absolute sm:before:inset-0 sm:before:left-[1px] sm:before:h-full sm:before:w-[1px] sm:before:-translate-x-px sm:before:bg-gradient-to-b sm:before:from-white/25 sm:before:via-white/25 sm:before:to-transparent">
 			{#each work as w, i}
 				<Milestone
 					from={w.from}
