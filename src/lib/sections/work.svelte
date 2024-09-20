@@ -18,6 +18,7 @@
 				'Strategic Alignment',
 				'Team Leadership',
 				'Systems Architecture',
+				'Product Management',
 				'WordPress',
 				'JavaScript',
 				'PHP',
@@ -38,6 +39,7 @@
 				'I directed the Web Development and Product Management verticals of the Media Division, and provided technical leadership for <i>The Public Internet Channel</i> and <i>Applications for Good</i>, with a combined traffic in excess of 1M unique visitors per month.'
 			],
 			keywords: [
+				'Strategic Alignment',
 				'Team Leadership',
 				'Systems Architecture',
 				'WordPress',

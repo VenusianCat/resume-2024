@@ -6,13 +6,13 @@
 		{
 			skillSetHeading: 'Getting Things Done',
 			icon: 'fa-check-square',
-			description: "I'm deeply pragmatic with a strong bias for action."
+			description: "Deeply pragmatic with a strong bias for action."
 		},
 		{
 			skillSetHeading: 'Bridging Domains',
 			icon: 'fa-link',
 			description:
-				'I\'m curious, analytical and am equally at home with executives and engineers. I enjoy the challenge of aligning praxis with strategy.'
+				'Curious, analytical and equally at home with executives and engineers. Enjoys the challenge of aligning praxis with strategy.'
 		},
 		{
 			skillSetHeading: 'Building Teams',
@@ -30,7 +30,7 @@
 			skillSetHeading: 'Designing Systems',
 			icon: 'fa-cogs',
 			description:
-				"From information architecture to process engineering, I've designed and refactored systems of all stripes."
+				"From information architecture to process engineering, has designed and refactored systems of all stripes."
 		},
 		{
 			skillSetHeading: 'Coding',
@@ -76,7 +76,7 @@
 
 
 					{#each splitStringWithoutBreakingWords(o.description, 40) as s, j}
-						<EditorLine class="font-normal text-indigo-800/90">
+						<EditorLine class="font-normal text-indigo-800">
 							{s}
 						</EditorLine>
 					{/each}

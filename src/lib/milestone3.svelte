@@ -49,23 +49,21 @@
 					<span class="visible sm:invisible">({to})</span>
 				</h3>
 			{/if}
-			{#if honors}<h3 class="mt-2 text-sm text-slate-100">
+			{#if honors}<h3 class="mt-2 text-sm text-slate-100 mb-4">
 					honors: <span class="italic">{honors}</span>
 				</h3>{/if}
 		</div>
-		<div
-			class="col-span-2 mt-2 flex flex-col gap-4 text-pretty text-xs text-slate-200 sm:text-sm">
-			{#if body}
+		{#if body}<div
+				class="col-span-2 mt-2 mb-4 flex flex-col gap-4 text-pretty text-xs text-slate-200 sm:text-sm">
 				<p class="leading-normal tracking-normal">{@html body}</p>
-			{/if}
-			<div class="my-4">
-				<ul
-					class="flex flex-wrap gap-1 font-['Roboto_Mono'] text-[0.7rem] leading-snug tracking-wide text-white/75">
-					{#each keywords as keyword}
-						<li class="rounded-full bg-black/20 px-2 py-0.5">{keyword}</li>
-					{/each}
-				</ul>
-			</div>
+			</div>{/if}
+		<div class="">
+			<ul
+				class="flex flex-wrap gap-1 font-['Roboto_Mono'] text-[0.7rem] leading-snug tracking-wide text-white/75">
+				{#each keywords as keyword}
+					<li class="rounded-full bg-black/20 px-2 py-0.5">{keyword}</li>
+				{/each}
+			</ul>
 		</div>
 	</div>
 </div>

@@ -10,7 +10,7 @@
 			title: 'BSc Economics with Social Psychology',
 			workPlace: 'London School of Economics and Political Science',
 			body: '',
-			keywords: ['Economics', 'Psychology', 'Statistics'],
+			keywords: ['Economics', 'Psychology', 'Statistics', 'Analysis', 'Critical Thinking', 'Research Design', 'Empathy'],
 			icons: [],
 			logo: '/images/lse.gif',
 			honors: ''
@@ -21,7 +21,7 @@
 			title: "MA Women's Studies",
 			workPlace: 'University of Sussex',
 			body: '',
-			keywords: ['History', 'Literature', 'Sociology', 'Law'],
+			keywords: ['Critical Thinking and Analysis', 'Intersectional Understanding', 'Empathy and Cultural Sensitivity', 'Research', 'History', 'Literature', 'Sociology', 'Law'],
 			icons: [],
 			logo: '/images/university-of-sussex.gif',
 			honors: 'Summa cum laude'
@@ -32,7 +32,7 @@
 			title: 'Postgraduate Certificate in Education',
 			workPlace: 'University of Brighton',
 			body: 'Confers Qualified Teacher Status (QTS) in the UK, equivalent to a Professional Educator License.',
-			keywords: ['Teaching', 'Time Management', 'Organisation'],
+			keywords: ['Conveying Information', 'Time Management', 'Organisation', 'Problem Solving', 'Adaptability', 'Resilience', 'Assessment and Evaluation', 'Leadership', 'Instructional Design'],
 			icons: [],
 			logo: '',
 			honors: ''
