@@ -5,8 +5,6 @@
 	import LinkedIn from '$lib/icons/linked-in.svelte';
 	import Instagram from '$lib/icons/instagram.svelte';
 	import Amazon from '$lib/icons/amazon.svelte';
-	export const prerender = true;
-	export const ssr = false;
 </script>
 
 <main>
@@ -21,7 +19,14 @@
 		</a>
 		<div
 			class="flex justify-between border-t border-slate-800 pt-4 text-sm text-slate-500 sm:gap-32">
-			<div>&copy; Richard Tammar 2024. My thanks to <a href="https://mario.tiscareno.dev" class="underline">Mario Tiscareno</a> for the design inspiration.</div>
+			<div>
+				&copy; Richard Tammar 2024. My thanks to <a
+					href="https://mario.tiscareno.dev"
+					class="underline">
+					Mario Tiscareno
+				</a>
+				 for the design inspiration.
+			</div>
 			<div class="flex">
 				<a
 					href="https://www.amazon.com/gp/product/1442138882?ie=UTF8&tag=themarsho-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1442138882"
