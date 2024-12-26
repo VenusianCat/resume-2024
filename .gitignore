@@ -134,3 +134,6 @@ dist
 
 # compiled output
 build
+
+# misc
+scraps.txt
