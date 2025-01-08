@@ -47,7 +47,7 @@
 				</a>
 
 				<a
-					href="https://www.linkedin.com/in/richard-tammar/"
+					href="https://www.linkedin.com/in/richardtammar/"
 					class="-mr-1 -mt-1 block h-10 w-10 p-1">
 					<LinkedIn />
 				</a>

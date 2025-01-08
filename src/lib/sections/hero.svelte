@@ -47,7 +47,7 @@
 		
 		<div class="absolute top-1 right-2 text-slate-700">
 			<a
-				href="https://www.linkedin.com/in/richard-tammar/"
+				href="https://www.linkedin.com/in/richardtammar/"
 				class="-mr-1 block h-12 w-12 p-1">
 				<LinkedIn />
 			</a>
