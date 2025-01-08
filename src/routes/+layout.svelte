@@ -20,7 +20,7 @@
 		<div
 			class="flex justify-between border-t border-slate-800 pt-4 text-sm text-slate-500 sm:gap-32">
 			<div>
-				&copy; Richard Tammar 2024. My thanks to <a
+				&copy; Richard Tammar 2025. My thanks to <a
 					href="https://mario.tiscareno.dev"
 					class="underline">
 					Mario Tiscareno
