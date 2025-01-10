@@ -32,8 +32,11 @@
 					<div>
 						<h2 class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
 							{@html heading}
+							{#if honors}
+									<span class="text-sm italic font-normal">({honors})</span>
+							{/if}
 						</h2>
-						<h3 class="font-bold text-pink-400 drop-shadow lg:text-base">
+						<h3 class="font-bold text-slate-300 drop-shadow lg:text-base">
 							{subheading}
 							<span class="visible sm:invisible">({to})</span>
 						</h3>
@@ -44,22 +47,19 @@
 				<h2 class="mb-2 text-lg font-bold text-slate-200 sm:text-xl">
 					{@html heading}
 				</h2>
-				<h3 class="font-bold text-pink-400 drop-shadow lg:text-base">
+				<h3 class="font-bold text-slate-300 drop-shadow lg:text-base">
 					{subheading}
 					<span class="visible sm:invisible">({to})</span>
 				</h3>
 			{/if}
-			{#if honors}<h3 class="mt-2 text-sm text-slate-100 mb-4">
-					honors: <span class="italic">{honors}</span>
-				</h3>{/if}
 		</div>
 		{#if body}<div
-				class="col-span-2 mt-2 mb-4 flex flex-col gap-4 text-pretty text-xs text-slate-200 sm:text-sm">
+				class="col-span-2 mb-4 mt-2 flex flex-col gap-4 text-pretty text-sm text-slate-200 sm:text-base">
 				<p class="leading-normal tracking-normal">{@html body}</p>
 			</div>{/if}
 		<div class="">
 			<ul
-				class="flex flex-wrap gap-1 font-['Roboto_Mono'] text-[0.7rem] leading-snug tracking-wide text-white/75">
+				class="mt-6 flex flex-wrap gap-1 font-['Roboto_Mono'] text-xs leading-snug tracking-wide text-white/75 sm:text-sm">
 				{#each keywords as keyword}
 					<li class="rounded-full bg-black/20 px-2 py-0.5">{keyword}</li>
 				{/each}

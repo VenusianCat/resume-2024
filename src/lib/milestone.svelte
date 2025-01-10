@@ -31,14 +31,14 @@
 			</h3>
 		</div>
 		<div
-			class="col-span-2 mt-4 flex flex-col gap-4 text-pretty text-xs text-slate-300 sm:text-sm">
+			class="col-span-2 mt-4 flex flex-col gap-4 text-pretty text-sm text-slate-300 sm:text-base">
 			<p class="italic leading-normal tracking-normal">{preamble}</p>
 			{#each body as paragraph}
 				<p class="leading-normal tracking-normal">{@html paragraph}</p>
 			{/each}
 			<div class="my-4">
 				<ul
-					class="flex flex-wrap gap-1 font-['Roboto_Mono'] text-[0.7rem] leading-snug tracking-wide text-white/75">
+					class="flex flex-wrap gap-1 font-['Roboto_Mono'] text-xs sm:text-sm leading-snug tracking-wide text-white/75">
 					{#each keywords as keyword}
 						<li class="rounded-full bg-black/20 px-2 py-0.5">{keyword}</li>
 					{/each}

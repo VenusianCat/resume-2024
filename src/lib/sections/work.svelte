@@ -10,9 +10,9 @@
 			title: 'Senior Director of Digital Strategy',
 			workPlace: 'Travel Portland',
 			locationDescription:
-				"Travel Portland is recognized as one of the most innovative and effective Destination Marketing Organizations in the United States and is the primary driver of the city's $6bn tourism sector.",
+				"Travel Portland is recognized as an industry leading Destination Marketing Organizations in the United States and is the primary driver of the city's $6bn tourism sector.",
 			body: [
-				'I am responsible for the organization\'s digital strategy, data systems and core digital products, including the multi-award-winning <a class="underline" href="https://travelportland.com">TravelPortland.com</a> and the <a class="underline" href="https://apps.apple.com/us/app/portland-near-me-now/id1661418385">Near Me Now</a> mobile app. Additionally, I chair the company\'s Systems Integration Team and direct a team of in-house and contract specialists and service providers.'
+				'I am responsible for Travel Portland\'s digital strategy, systems and products, including the multi-award-winning <a class="underline" href="https://travelportland.com">TravelPortland.com</a> and the <a class="underline" href="https://apps.apple.com/us/app/portland-near-me-now/id1661418385">Near Me Now</a> mobile app. I chair the Systems Integration Team and direct a wide array of technical specialists.'
 			],
 			keywords: [
 				'Strategic Alignment',
@@ -20,6 +20,7 @@
 				'Systems Architecture',
 				'Product Management',
 				'WordPress',
+				'Simpleview CRM',
 				'JavaScript',
 				'PHP',
 				'SQL',
@@ -60,11 +61,11 @@
 			from: '2004',
 			to: '2008',
 			title: 'Web Manager',
-			workPlace: 'Lattice Semiconductor',
+			workPlace: 'Lattice Semiconductor Corporation',
 			locationDescription:
 				'Lattice Semiconductor Corporation (NASDAQ: LSCC) designs high-performance programmable logic devices.',
 			body: [
-				"I directed the corporation's global web presence, intranet, extranet and email marketing programs. I managed the web team and reengineered the corporate web site, significantly enhancing customer-satisfaction, usability, lead generation and organic search rank; significantly reducing support and maintenance overheads and marketing lead times."
+				"I directed the corporation's global web presence, intranet, extranet and email marketing programs. I managed the web team and reengineered the corporate web site, enhancing usability, lead generation and organic search rank while reducing maintenance overheads and marketing lead times."
 			],
 			keywords: [
 				'Content Management Systems',
@@ -88,7 +89,7 @@
 			locationDescription:
 				'The University of Sussex is a leading British public research university.',
 			body: [
-				"I was responsible for the University's web presence, ran technical lead on all major web development initiatives and line managed the University web team. We were one of the very first universities to develop a campus-wide content management system, enabling non-technical staff in 100+ subordinate units to maintain an independent departmental website while maintaining consistent institutional branding and a unified UX. The CMS integrated with HR and curriculum systems to ensure currency of staff data, program specifications <i>et al</i>. Through so doing we increased usability, reduced technical overheads and cut support costs."
+				"I was responsible for the university's web presence and managed the core web team. We were one of the very first universities to develop and implement a campus-wide content management system, enabling non-technical staff in over 100 departments to maintain an independent website within a unified UX. Our CMS integrated with HR and curriculum systems to ensure currency of staff data, program specifications <i>et al</i>. Through so doing we increased usability, reduced technical overheads and cut support costs."
 			],
 			keywords: [
 				'Team Leadership',
@@ -109,11 +110,11 @@
 	});
 </script>
 
-<div class="left-0 -mt-2 w-full overflow-hidden bg-slate-800 py-6 md:py-12">
+<div class="left-0 -mt-2 w-full overflow-hidden bg-slate-800 py-6 md:py-8">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300 sm:mb-10">
+				class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-300">
 				<span class="text-white/50">//</span>
 				WORK EXPERIENCE
 			</h2>

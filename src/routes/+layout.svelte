@@ -14,18 +14,18 @@
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a
 			href="#top"
-			class="mb-2 block text-base font-bold tracking-tight text-slate-400">
+			class="mb-2 block text-base font-bold tracking-tight text-slate-200">
 			RICHARD TAMMAR
 		</a>
 		<div
-			class="flex justify-between border-t border-slate-800 pt-4 text-sm text-slate-500 sm:gap-32">
+			class="flex justify-between border-t border-slate-800 pt-4 text-sm text-slate-300 sm:gap-32">
 			<div>
 				&copy; Richard Tammar 2025. My thanks to <a
 					href="https://mario.tiscareno.dev"
 					class="underline">
 					Mario Tiscareno
 				</a>
-				 for the design inspiration.
+				 for the template.
 			</div>
 			<div class="flex">
 				<a

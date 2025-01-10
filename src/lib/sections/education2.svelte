@@ -24,7 +24,7 @@
 			keywords: ['Critical Thinking and Analysis', 'Intersectional Understanding', 'Empathy and Cultural Sensitivity', 'Research', 'History', 'Literature', 'Sociology', 'Law'],
 			icons: [],
 			logo: '/images/university-of-sussex.gif',
-			honors: 'Summa cum laude'
+			honors: 'with distinction / summa cum laude'
 		},
 		{
 			from: '1998',
@@ -45,11 +45,11 @@
 </script>
 
 <div
-	class="bg-pink-900 pt-12 pb-16">
+	class="bg-[#3e0819] pt-12 pb-8">
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a id="work">
 			<h2
-				class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-200 sm:mb-10">
+				class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-200">
 				// EDUCATION
 			</h2>
 		</a>

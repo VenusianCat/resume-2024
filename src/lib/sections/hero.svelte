@@ -4,68 +4,50 @@
 </script>
 
 <div
-	class="w-full flex-col justify-start overflow-hidden sm:bg-cover sm:bg-right sm:bg-no-repeat sm:bg-[url('/images/headshot-2.jpg')]">
-
-		
-		<div class="tracking-tight md:text-3xl px-4 hidden sm:block">
-			
-			<!--author block, code block style-->
-			<div
-				class="glass my-3 font-['Roboto_Mono'] font-medium leading-none tracking-tight drop-shadow hidden sm:inline-block">
-				<p>
-					<span class="font-normal text-zinc-100/30 border-r-2 pr-2 border-zinc-100/10 inline-block">1</span>
-					<span class="text-slate-700 inline-block">&lbrace;</span>
-				</p>
-
-				<p>
-					<span class="font-normal text-zinc-100/30 border-r-2 pr-2 border-zinc-100/10 inline-block">2</span>
-					&nbsp;
-					<span class="text-slate-600 inline-block">author:&nbsp;'</span><span class="text-slate-100 inline-block">Richard Tammar</span><span class="text-slate-600">'&nbsp;</span>
-				</p>
-
-				<p>
-					<span class="font-normal text-zinc-100/30 border-r-2 pr-2 border-zinc-100/10 inline-block">3</span>
-					<span class="text-slate-700 inline-block">&rbrace;</span>
-				</p>
-			</div>
-		</div>
-		<!-- end code block style -->
-		<!--author block, mobile-->
-		<h1 class="sm:hidden text-2xl font-bold pt-2 bg-sky-100 text-slate-700 px-4">RICHARD TAMMAR</h1>
-
-		<div class="bg-slate-500 sm:hidden"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="#e0f2fe"><path d="M0 0v90.2C49.7 99.9 105 82 160 65c75.5-23.3 145.5-22.4 222-3 63 16 119 14 173-8 79.5-32.4 156.2-27.6 240-10 82.6 17.4 143-1 205-31.7V0H0Z"></path></svg></div>
-		
-		<p class="sm:max-w-[35rem] pt-6 pb-8 sm:text-lg text-slate-100/90 leading-6 pl-5 pr-3 bg-slate-500 sm:bg-transparent"><img src="{base}/images/headshot-square.jpg" alt="headshot of Richard Tammar" class="size-24 rounded-full visible sm:hidden float-right mr-2 mb-2" />
-			Veteran technologist with a knack for connecting the C-suite to the
-			engine room. Empathetic, curious and analytical, I work to catalyze positive 
-			change.
+	class="w-full flex-col justify-start overflow-hidden sm:bg-[url('/images/headshot-2.jpg')] sm:bg-cover sm:bg-right sm:bg-no-repeat">
+	<!--author block, non-mobile-->
+	<div class="hidden px-4 py-6 text-5xl sm:block">
+		<p class="font-['Roboto_Mono'] tracking-wide text-slate-100/90">
+			<span class="text-slate-400/30">&gt;</span>Richard Tammar<span
+				class="text-slate-400">_</span>
 		</p>
-			<!--mock code block-->
+	</div>
+	<!--author block, mobile-->
+	<h1
+		class="bg-sky-100 px-4 pt-2 font-['Roboto_Mono'] text-2xl tracking-wide text-slate-900 sm:hidden">
+		<span class="text-sky-300">&gt;</span>Richard Tammar<span
+			class="text-sky-300">_</span>
+	</h1>
 
-	<!-- end mock code block -->
+	<div class="bg-slate-500 sm:hidden">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 1000 100"
+			fill="#e0f2fe">
+			<path
+				d="M0 0v90.2C49.7 99.9 105 82 160 65c75.5-23.3 145.5-22.4 222-3 63 16 119 14 173-8 79.5-32.4 156.2-27.6 240-10 82.6 17.4 143-1 205-31.7V0H0Z">
+			</path>
+		</svg>
+	</div>
 
-		
-		<div class="absolute top-1 right-2 text-slate-700">
-			<a
-				href="https://www.linkedin.com/in/richardtammar/"
-				class="-mr-1 block h-12 w-12 p-1">
-				<LinkedIn />
-			</a>
-		</div>
+	<p
+		class="bg-slate-500 pb-8 pl-12 pr-3 pt-2 font-['Roboto_Mono'] leading-6 text-slate-100/90 sm:max-w-[30rem] sm:bg-transparent sm:text-xl">
+		<img
+			src="{base}/images/headshot-square.jpg"
+			alt="headshot of Richard Tammar"
+			class="visible float-right mr-2 size-24 rounded-full sm:hidden" />
+		Veteran technologist with a knack for connecting the C-suite to the engine room.
+		Empathetic, curious and analytical, I work to catalyze positive change.
+	</p>
 
+	<div class="absolute right-2 top-1 text-slate-700">
+		<a
+			href="https://www.linkedin.com/in/richardtammar/"
+			class="-mr-1 block h-12 w-12 p-1">
+			<LinkedIn />
+		</a>
+	</div>
 </div>
 
 <style lang="postcss">
-	.glass {}
-	@media screen and (min-width: 480px) {
-		.glass {
-			background: rgba(255, 255, 255, 0);
-			border-radius: 16px;
-			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-			backdrop-filter: blur(3px);
-			-webkit-backdrop-filter: blur(3px);
-			border: 1px solid rgba(255, 255, 255, 0.1);
-			padding: 1.25rem;
-		}
-	}
 </style>

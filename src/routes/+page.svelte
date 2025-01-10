@@ -9,9 +9,9 @@
 <Hero />
 <div class="relative z-50 h-4 w-full bg-gray-800"></div>
 <Work />
-<div class="relative z-50 h-4 w-full bg-indigo-900"></div>
+
 <Skills />
-<div class="relative z-50 h-4 w-full bg-purple-800"></div>
+
 <!--<NotWork />
 <div class="relative z-50 h-4 w-full bg-sky-950"></div>-->
 <Education2 />
