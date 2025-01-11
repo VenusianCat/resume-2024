@@ -9,7 +9,7 @@
 </script>
 
 <div class="glass relative z-50 rounded-lg pl-4 shadow-lg backdrop-filter backdrop-blur-sm pt-1 pb-4">
-	<div class="counter-reset-line -ml-2 pt-3 sm:text-base text-sm">
+	<div class="counter-reset-line -ml-2 pt-3 ">
 		{@render children()}
 	</div>
 </div>

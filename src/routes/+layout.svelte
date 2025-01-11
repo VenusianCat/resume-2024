@@ -14,7 +14,7 @@
 	<div class="relative mx-auto max-w-7xl px-4 md:px-6">
 		<a
 			href="#top"
-			class="mb-2 block text-base font-bold tracking-tight text-slate-200">
+			class="mb-2 block text-xl font-bold text-slate-200 font-['Roboto_Mono']">
 			RICHARD TAMMAR
 		</a>
 		<div
