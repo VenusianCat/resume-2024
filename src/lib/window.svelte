@@ -19,7 +19,7 @@
 		counter-reset: line;
 	}
 	.glass {
-		background: rgba(0, 0, 0,0.3);
+		background: rgba(0, 35, 55,0.6);
 		border: 2px solid rgba(255, 255, 255, 0.5);
 	}
 </style>

@@ -8,7 +8,7 @@
 			skillSetHeading: 'Bridging Domains',
 			icon: 'fa-link',
 			description:
-				'Friendly with executives and engineers alike, I enjoy the challenge of aligning practice with strategy.'
+				'Equally empathetic with executives and engineers, I enjoy the challenge of aligning practice with strategy.'
 		},
 		{
 			skillSetHeading: 'Building Teams',
@@ -25,7 +25,7 @@
 			skillSetHeading: 'Conveying Ideas',
 			icon: 'fa-lightbulb',
 			description:
-				'"Clear, smart, digestible... and highly entertaining."'
+				'A trained teacher, my presentations have been described as "Clear, smart, digestible... and highly entertaining."'
 		},
 		{
 			skillSetHeading: 'Designing Systems',
@@ -57,10 +57,10 @@
 	let x;
 </script>
 
-<div class="bg-gradient-to-tr from-[#3e0819] via-[#c0b4a8] to-[#0E273E] py-4">
+<div class="bg-sky-100 py-4">
 	<div class="relative z-40 mx-auto max-w-7xl px-4 pb-6 pt-6">
 		<h2
-			class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-50 sm:mb-10">
+			class="relative z-10 mx-auto mb-6 font-['Roboto_Mono'] text-xl leading-none tracking-wide text-slate-900 sm:mb-10">
 			// SUPERPOWERS
 		</h2>
 
